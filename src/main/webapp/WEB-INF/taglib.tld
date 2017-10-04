@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version= "2.1"
+		xmlns= "http://java.sun.com/xml/ns/javaee"
+		xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation= "http://java.sun.com/xml/ns/javaee
+		web-jsptaglibrary_2_1.xsd">
+	
+	<tlib-version> 1.0 </tlib-version>
+	<short-name> mytag </short-name>
+	<uri> customtaglib </uri>
+	
+	<tag>
+		<name> header </name>
+		<tag-class> com.boast.controller.util.tag.HeaderTag </tag-class>
+		<body-content> empty </body-content>
+		<attribute>
+			<name> text </name>
+			<required> false </required>
+			<rtexprvalue> true </rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name> coursesTable </name>
+		<tag-class> com.boast.controller.util.tag.CoursesTableTag </tag-class>
+		<body-content> empty </body-content>
+		<attribute>
+			<name> courses </name>
+			<required> true </required>
+			<rtexprvalue> true </rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name> applyButton </name>
+		<tag-class> com.boast.controller.util.tag.ApplyButtonTag </tag-class>
+		<body-content> empty </body-content>
+		<attribute>
+			<name> course </name>
+			<required> true </required>
+			<rtexprvalue> true </rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name> teacherSelect </name>
+		<tag-class> com.boast.controller.util.tag.TeacherSelectTag </tag-class>
+		<body-content> empty </body-content>
+		<attribute>
+			<name> teacherId </name>
+			<required> true </required>
+			<rtexprvalue> true </rtexprvalue>
+		</attribute>
+		<attribute>
+			<name> onchange </name>
+			<required> false </required>
+			<rtexprvalue> true </rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name> courseStatusSelect </name>
+		<tag-class> com.boast.controller.util.tag.CourseStatusSelectTag </tag-class>
+		<body-content> empty </body-content>
+		<attribute>
+			<name> status </name>
+			<required> true </required>
+			<rtexprvalue> true </rtexprvalue>
+		</attribute>
+		<attribute>
+			<name> onchange </name>
+			<required> false </required>
+			<rtexprvalue> true </rtexprvalue>
+		</attribute>
+	</tag>
+	
+</taglib>
