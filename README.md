@@ -1,1 +1,1 @@
-# EPAM.Project.Electives
+# Project.Electives
