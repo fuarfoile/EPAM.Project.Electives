@@ -20,9 +20,9 @@
     <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_2_more.coverage" NAME="MySqlCourseDaoTest and 2 more Coverage Results" MODIFIED="1506328150759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_3_more.coverage" NAME="MySqlCourseDaoTest and 3 more Coverage Results" MODIFIED="1506813538350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/electives$MySqlDaoFactoryTest.coverage" NAME="MySqlDaoFactoryTest Coverage Results" MODIFIED="1506862766452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest.coverage" NAME="MySqlCourseDaoTest Coverage Results" MODIFIED="1506282190768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest.coverage" NAME="MySqlCourseDaoTest Coverage Results" MODIFIED="1507646876955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_3_more__1_.coverage" NAME="MySqlCourseDaoTest and 3 more (1) Coverage Results" MODIFIED="1506862753748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_4_more.coverage" NAME="MySqlCourseDaoTest and 4 more Coverage Results" MODIFIED="1507115208869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_4_more.coverage" NAME="MySqlCourseDaoTest and 4 more Coverage Results" MODIFIED="1507828235563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_1_more.coverage" NAME="MySqlCourseDaoTest and 1 more Coverage Results" MODIFIED="1506327114572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
@@ -40,14 +40,57 @@
     <favorites_list name="electives" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MySqlConnectionFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/impl/MySqlConnectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-233">
+              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/SessionFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/ControllerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,13 +99,18 @@
       <find>Teacher</find>
       <find>teacher</find>
       <find>User</find>
-      <find>user</find>
       <find>session</find>
-      <find>getSession</find>
       <find>\ \</find>
       <find>getMySqlLoginDao</find>
       <find>request.getA</find>
       <find>\3F</find>
+      <find>new User</find>
+      <find>new User()</find>
+      <find>user</find>
+      <find>new Course()</find>
+      <find>void</find>
+      <find>new StudentCourse()</find>
+      <find>getSession</find>
       <find>%</find>
       <find>\20\</find>
     </findStrings>
@@ -77,6 +125,10 @@
       <replace>\ \</replace>
       <replace>getLoginDao</replace>
       <replace>?</replace>
+      <replace>course</replace>
+      <replace>CourseBuilder</replace>
+      <replace>new Course()</replace>
+      <replace>StudentCourseBuilder</replace>
       <replace>\</replace>
       <replace>\</replace>
     </replaceStrings>
@@ -89,33 +141,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/Receiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/Invoker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandAccountUpdate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandApplyCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCancelCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseCreate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandForgot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLocalization.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogout.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandMarkChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandPassReset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandRAccountUpdate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandRCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandRCourseCreate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandRForgot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandRLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandRPassReset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandRProfile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandRSignup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandSignup.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/TypeCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/ControllerServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/ApplyButtonTag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/CourseSratusSelectTag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/CourseStatusSelectTag.java" />
@@ -125,9 +152,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/CourseStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/StudentCourse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/impl/MySqlConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlDaoFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/DaoFactory.java" />
@@ -137,9 +162,36 @@
         <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/StudentCourseDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/LoginDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlLoginDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlStudentCourseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlCourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/builder/Builder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandAccountUpdate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseCreate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlCourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLocalization.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/UserBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/CourseBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/localization/translation.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/localization/translation_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/localization/translation_ru.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandApplyCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCancelCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandForgot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/StudentCourseBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/exception/MarkException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/StudentCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlStudentCourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandMarkChange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandSignup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MySqlCourseDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MySqlStudentCourseDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MySqlUserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/ControllerServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/impl/MySqlConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/AuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/SessionFilter.java" />
       </list>
     </option>
   </component>
@@ -176,9 +228,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,9 +302,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boast" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="redirect" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="electives" type="b2602c69:ProjectViewProjectNode" />
@@ -305,6 +355,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boast" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="electives" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boast" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="electives" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boast" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="electives" type="b2602c69:ProjectViewProjectNode" />
@@ -381,6 +452,22 @@
               <item name="electives" type="b2602c69:ProjectViewProjectNode" />
               <item name="electives" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="electives" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="electives" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -390,20 +477,24 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lib" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.40804598" />
+    <property name="project.structure.side.proportion" value="0.17586207" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -419,17 +510,18 @@
       <recent name="com.boast.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.boast.domain.builder.impl" />
       <recent name="com.boast.controller.command.impl" />
       <recent name="com.boast.controller.util.tag" />
       <recent name="com.boast.controller.util.filter" />
       <recent name="com.boast.model.dao" />
-      <recent name="com.boast.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\electives\lib" />
+      <recent name="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\electives\src\main\resources" />
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\electives\src\main\resources\localization" />
       <recent name="C:\Users\boast\IdeaProjects\electives\src\main\resources\localization" />
       <recent name="C:\Users\boast\IdeaProjects\electives\src\main\resources" />
-      <recent name="C:\Users\boast\IdeaProjects\electives\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -620,6 +712,26 @@
         <pattern testClass="MySqlUserDaoTest" />
       </patterns>
     </configuration>
+    <configuration name="MySqlCourseDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="electives" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MySqlCourseDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="MySqlDaoFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="electives" />
@@ -721,18 +833,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 2 more" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 3 more" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.MySqlDaoFactoryTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 4 more" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 4 more" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MySqlDaoFactoryTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 3 more" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 2 more" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MySqlDaoFactoryTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 3 more" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 2 more" />
       </list>
     </recent_temporary>
   </component>
@@ -743,6 +857,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -770,35 +887,38 @@
       <workItem from="1506812471118" duration="1209000" />
       <workItem from="1506850973790" duration="114231000" />
       <workItem from="1507133264398" duration="98000" />
+      <workItem from="1507471857542" duration="242000" />
+      <workItem from="1507623122912" duration="11669000" />
+      <workItem from="1507818481801" duration="17176000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MySqlCourseDaoTest_and_3_more_(1) - 2017.10.01 at 14h 31m 17s.xml">
-      <configuration name="MySqlCourseDaoTest and 3 more (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_3_more_(1) - 2017.10.01 at 15h 56m 46s.xml">
-      <configuration name="MySqlCourseDaoTest and 3 more (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_3_more_(1) - 2017.10.01 at 15h 59m 16s.xml">
-      <configuration name="MySqlCourseDaoTest and 3 more (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.04 at 14h 01m 51s.xml">
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.10 at 11h 49m 43s.xml">
       <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.04 at 14h 02m 58s.xml">
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.10 at 16h 57m 27s.xml">
       <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.04 at 14h 03m 21s.xml">
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.10 at 17h 18m 13s.xml">
       <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.04 at 14h 03m 48s.xml">
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 23m 12s.xml">
       <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.04 at 14h 05m 07s.xml">
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 25m 31s.xml">
       <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.04 at 14h 06m 51s.xml">
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 26m 15s.xml">
+      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 27m 25s.xml">
+      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 29m 00s.xml">
+      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 20h 10m 37s.xml">
       <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MySqlDaoFactoryTest - 2017.10.01 at 15h 59m 28s.xml">
@@ -806,43 +926,44 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262549000" />
+    <option name="totallyTimeSpent" value="291636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28586957" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5043478" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.49467275" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49565217" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28586957" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14925373" sideWeight="0.5053272" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2739872" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5043478" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5043478" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2228145" sideWeight="0.5053272" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -853,307 +974,86 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandForgot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="77" lean-forward="false" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLocalization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="83" lean-forward="false" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="77" lean-forward="false" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandMarkChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandPassReset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/redirect/CommandRAccountUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/redirect/CommandRCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/redirect/CommandRForgot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="84" lean-forward="false" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/redirect/CommandRLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/redirect/CommandRPassReset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="84" lean-forward="false" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/redirect/CommandRProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/redirect/CommandRSignup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandSignup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/SessionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="36" column="79" lean-forward="true" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/constant/Values.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/constant/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/EncodingFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/builder/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/CoursesTableTag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-777">
-          <caret line="19" column="81" lean-forward="false" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+        <state relative-caret-position="-23681">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/CourseStatusSelectTag.java">
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/TeacherSelectTag.java">
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/HeaderTag.java">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/CourseStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/Position.java">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/StudentCourse.java">
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/javax_servlet_javax_servlet_api_4_0_0.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/ConnectionFactory.java">
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/electives_Web_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlDaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/StudentCourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/LoginDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlLoginDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="130">
+          <caret line="28" column="63" lean-forward="true" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
           <folding>
             <marker date="1507132397603" expanded="true" signature="878:938" ph="SELECT * FRO... user" />
             <marker date="1507132397603" expanded="true" signature="1702:1747" ph="SELECT * FRO... user" />
@@ -1161,162 +1061,363 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlStudentCourseDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/taglib.tld">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3026">
-          <caret line="189" column="52" lean-forward="false" selection-start-line="189" selection-start-column="52" selection-end-line="189" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/electives.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/TeacherSelectTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/UserBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <marker date="1507132599722" expanded="true" signature="869:1171" ph="INSERT INTO electives_db.course... " />
-            <marker date="1507132599722" expanded="true" signature="1469:1522" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507132599722" expanded="true" signature="3019:3080" ph="SELECT * FRO... Course" />
-            <marker date="1507132599722" expanded="true" signature="3019:3098" ph="SELECT * FRO... Course" />
-            <marker date="1507132599722" expanded="true" signature="3820:3932" ph="UPDATE elect... " />
-            <marker date="1507132599722" expanded="true" signature="3820:3957" ph="UPDATE elect... " />
-            <marker date="1507132599722" expanded="true" signature="4668:4734" ph="DELETE FROM " />
-            <marker date="1507132599722" expanded="true" signature="4668:4739" ph="DELETE FROM " />
-            <marker date="1507132599722" expanded="true" signature="5098:5177" ph="DELETE FROM " />
-            <marker date="1507132599722" expanded="true" signature="5098:5227" ph="DELETE FROM " />
-            <marker date="1507132599722" expanded="true" signature="5098:5228" ph="DELETE FROM " />
-            <marker date="1507132599722" expanded="true" signature="5583:5623" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507132599722" expanded="true" signature="6077:6138" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507132599722" expanded="true" signature="6628:6688" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507132599722" expanded="true" signature="7165:7225" ph="SELECT * FRO... studentcourse" />
+            <element signature="e#281#282#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlUserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/CourseBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="28" />
+        <state relative-caret-position="-46">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
-            <marker date="1507132857854" expanded="true" signature="801:1326" ph="INSERT INTO electives_db.user... " />
-            <marker date="1507132857854" expanded="true" signature="1881:1925" ph="SELECT * FRO... user" />
-            <marker date="1507132857854" expanded="true" signature="2206:2253" ph="SELECT * FRO... user" />
-            <marker date="1507132857854" expanded="true" signature="3178:3728" ph="UPDATE elect... " />
-            <marker date="1507132857854" expanded="true" signature="4654:4720" ph="DELETE FROM " />
-            <marker date="1507132857854" expanded="true" signature="5138:5169" ph="SELECT * FRO... user" />
-            <marker date="1507132857854" expanded="true" signature="5579:5648" ph="DELETE FROM " />
-            <marker date="1507132857854" expanded="true" signature="5579:5649" ph="DELETE FROM " />
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/translation_ru.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="128" column="49" lean-forward="false" selection-start-line="128" selection-start-column="49" selection-end-line="128" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/translation_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="129" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/translation.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="129" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandApplyCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="50" column="63" lean-forward="true" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCancelCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="37" column="89" lean-forward="false" selection-start-line="37" selection-start-column="89" selection-end-line="37" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandAccountUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandForgot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLocalization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/StudentCourseBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandMarkChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlStudentCourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="75" column="51" lean-forward="false" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+          <folding>
+            <marker date="1507822279231" expanded="true" signature="981:1283" ph="INSERT INTO electives_db.studentcourse... " />
+            <marker date="1507822279231" expanded="true" signature="1581:1634" ph="SELECT * FRO... studentcourse" />
+            <marker date="1507822279231" expanded="true" signature="3255:3334" ph="SELECT * FRO... studentcourse" />
+            <marker date="1507822279231" expanded="true" signature="4158:4270" ph="UPDATE elect... " />
+            <marker date="1507822279231" expanded="true" signature="5006:5077" ph="DELETE FROM " />
+            <marker date="1507822279231" expanded="true" signature="5436:5566" ph="DELETE FROM " />
+            <marker date="1507822279231" expanded="true" signature="5921:5961" ph="SELECT * FRO... studentcourse" />
+            <marker date="1507822279231" expanded="true" signature="6415:6476" ph="SELECT * FRO... studentcourse" />
+            <marker date="1507822279231" expanded="true" signature="6966:7026" ph="SELECT * FRO... studentcourse" />
+            <marker date="1507822279231" expanded="true" signature="7503:7563" ph="SELECT * FRO... studentcourse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/StudentCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/exception/MarkException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#160#161#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#265#266#0" expanded="false" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#364#365#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/HeaderTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="37" column="78" lean-forward="true" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandSignup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="84" column="61" lean-forward="true" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySqlUserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySqlStudentCourseDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="59" column="57" lean-forward="false" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySqlCourseDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="83" column="24" lean-forward="false" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml_debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-22998">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlCourseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1372">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="397">
+          <caret line="128" column="27" lean-forward="true" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
           <folding>
-            <marker date="1507132795912" expanded="true" signature="874:1002" ph="INSERT INTO course" />
-            <marker date="1507132795912" expanded="true" signature="874:1126" ph="INSERT INTO electives_db.course... " />
-            <marker date="1507132795912" expanded="true" signature="874:1150" ph="INSERT INTO course" />
-            <marker date="1507132795912" expanded="true" signature="874:1190" ph="INSERT INTO course" />
-            <marker date="1507132795912" expanded="true" signature="874:1193" ph="INSERT INTO electives_db.course... " />
-            <marker date="1507132795912" expanded="true" signature="874:1194" ph="INSERT INTO course" />
-            <marker date="1507132795912" expanded="true" signature="1864:1910" ph="SELECT * FRO... Course" />
-            <marker date="1507132795912" expanded="true" signature="3120:3159" ph="UPDATE elect... " />
-            <marker date="1507132795912" expanded="true" signature="3120:3217" ph="UPDATE elect... " />
-            <marker date="1507132795912" expanded="true" signature="3120:3280" ph="UPDATE elect... " />
-            <marker date="1507132795912" expanded="true" signature="3120:3398" ph="UPDATE elect... " />
-            <marker date="1507132795912" expanded="true" signature="3120:3468" ph="UPDATE elect... " />
-            <marker date="1507132795912" expanded="true" signature="3120:3469" ph="UPDATE elect... " />
-            <marker date="1507132795912" expanded="true" signature="3120:3470" ph="UPDATE elect... " />
-            <marker date="1507132795912" expanded="true" signature="3120:3492" ph="UPDATE elect... " />
-            <marker date="1507132795912" expanded="true" signature="3954:3985" ph="DELETE FROM " />
-            <marker date="1507132795912" expanded="true" signature="3954:4018" ph="DELETE FROM " />
-            <marker date="1507132795912" expanded="true" signature="4318:4351" ph="SELECT * FRO... Course" />
-            <marker date="1507132795912" expanded="true" signature="4791:4824" ph="SELECT * FRO... Course" />
-            <marker date="1507132795912" expanded="true" signature="4791:4845" ph="SELECT * FRO... Course" />
+            <marker date="1507626211803" expanded="true" signature="926:1245" ph="INSERT INTO electives_db.course... " />
+            <marker date="1507626211803" expanded="true" signature="1916:1962" ph="SELECT * FRO... Course" />
+            <marker date="1507626211803" expanded="true" signature="3193:3542" ph="UPDATE elect... " />
+            <marker date="1507626211803" expanded="true" signature="4027:4091" ph="DELETE FROM " />
+            <marker date="1507626211803" expanded="true" signature="4391:4424" ph="SELECT * FRO... Course" />
+            <marker date="1507626211803" expanded="true" signature="4864:4918" ph="SELECT * FRO... Course" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/GenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/redirect/CommandRCourseCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/Invoker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663">
-          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="32" />
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/TypeCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/EncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/AuthorizationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/ApplyButtonTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="-20">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/ControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="515">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/impl/MySqlConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="-233">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/constant/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/AuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="54" column="67" lean-forward="true" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/SessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1337,13 +1438,20 @@
       </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
           <last-edited>electives:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.40804598" />
-                <option value="0.43811074" />
+                <option value="0.17586207" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1355,7 +1463,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.40804598" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -1366,7 +1474,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.40804598" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -1378,7 +1486,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.40804598" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -1386,12 +1494,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>electives</last-edited>
+          <last-edited>Web|electives</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.40804598" />
-                <option value="0.6" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -1403,7 +1510,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.40804598" />
+                <option value="0.17586207" />
               </list>
             </option>
           </splitter-proportions>

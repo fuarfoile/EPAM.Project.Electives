@@ -1,5 +1,6 @@
 package com.boast.model.dao.impl;
 
+import com.boast.domain.builder.impl.UserBuilder;
 import com.boast.model.dao.GenericDao;
 import com.boast.model.dao.UserDao;
 import com.boast.domain.Position;
@@ -73,16 +74,15 @@ public class MySqlUserDao implements UserDao {
     private User getByHelper(PreparedStatement stm) throws SQLException{
         ResultSet rs = stm.executeQuery();
         rs.next();
-        User user = new User();
-        user.setPosition(Position.values()[rs.getInt("position") - 1]);
-        user.setId(rs.getInt("id"));
-        user.setName(rs.getString("name"));
-        user.setSurname(rs.getString("surname"));
-        user.setEmail(rs.getString("email"));
-        user.setPassword(null);
-        user.setPhoneNumber(rs.getString("phone_number"));
-        user.setPassRecoveryKey(rs.getString("pass_recovery_key"));
-        return user;
+        return new UserBuilder()
+                .setPosition(Position.values()[rs.getInt("position") - 1])
+                .setId(rs.getInt("id"))
+                .setName(rs.getString("name"))
+                .setSurname(rs.getString("surname"))
+                .setEmail(rs.getString("email"))
+                .setPassword(null)
+                .setPhoneNumber(rs.getString("phone_number"))
+                .setPassRecoveryKey(rs.getString("pass_recovery_key")).build();
     }
 
     /** @see GenericDao#update(Object) */

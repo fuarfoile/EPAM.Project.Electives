@@ -1,3 +1,4 @@
+import com.boast.domain.builder.impl.CourseBuilder;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlCourseDao;
@@ -56,10 +57,10 @@ public class MySqlCourseDaoTest {
 
     @Test
     public void testCreate() throws Exception {
-        Course course = new Course();
-        course.setId(9999);
-        course.setName("Test name");
-        course.setTeacherId(1);
+        Course course = new CourseBuilder()
+                .setId(9999)
+                .setName("Test name")
+                .setTeacherId(1).build();
 
         boolean res = dao.create(course);
 
@@ -68,9 +69,9 @@ public class MySqlCourseDaoTest {
 
     @Test
     public void testUpdate() throws Exception {
-        Course course = new Course();
-        course.setId(1);
-        course.setTeacherId(1);
+        Course course = new CourseBuilder()
+                .setId(1)
+                .setTeacherId(1).build();
 
         boolean res = dao.update(course);
 
@@ -79,9 +80,9 @@ public class MySqlCourseDaoTest {
 
     @Test
     public void testDelete() throws Exception {
-        Course course = new Course();
-        course.setId(1);
-        course.setTeacherId(1);
+        Course course = new CourseBuilder()
+                .setId(8)
+                .setTeacherId(1).build();
 
         boolean res = dao.delete(course);
 

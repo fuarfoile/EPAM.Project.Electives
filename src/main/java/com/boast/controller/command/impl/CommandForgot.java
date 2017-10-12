@@ -36,7 +36,7 @@ public class CommandForgot implements Command {
         try {
             user = daoFactory.getUserDao(connection).getByEmail(email);
         } catch (SQLException e) {
-            logger.error("rSignup: user getByEmail, " + e);
+            logger.error("Can't get user from db: getByEmail. " + e);
         }
 
         if (user != null) {

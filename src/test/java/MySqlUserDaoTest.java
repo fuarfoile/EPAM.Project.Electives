@@ -1,3 +1,4 @@
+import com.boast.domain.builder.impl.UserBuilder;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
@@ -57,10 +58,10 @@ public class MySqlUserDaoTest {
 
     @Test
     public void testCreate() throws Exception {
-        User user = new User();
-        user.setName("Test name");
-        user.setEmail("test@email");
-        user.setPosition(Position.ADMIN);
+        User user = new UserBuilder()
+                .setName("Test name")
+                .setEmail("test@email")
+                .setPosition(Position.ADMIN).build();
 
         boolean res = dao.create(user);
 
@@ -69,10 +70,10 @@ public class MySqlUserDaoTest {
 
     @Test
     public void testUpdate() throws Exception {
-        User user = new User();
-        user.setId(1);
-        user.setEmail("test@email");
-        user.setPosition(Position.ADMIN);
+        User user = new UserBuilder()
+                .setId(1)
+                .setEmail("test@email")
+                .setPosition(Position.ADMIN).build();
 
         boolean res = dao.update(user);
 
@@ -81,8 +82,8 @@ public class MySqlUserDaoTest {
 
     @Test
     public void testDelete() throws Exception {
-        User user = new User();
-        user.setId(1);
+        User user = new UserBuilder()
+                .setId(14).build();
 
         boolean res = dao.delete(user);
 

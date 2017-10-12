@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <%@ page isErrorPage="true" %>
-<html lang="en">
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ page contentType="text/html;charset=utf-8" %>
+<c:set var="language" value="${not empty language ? language : pageContext.request.locale}" scope="session" />
+<fmt:setLocale value="${language}" />
+<fmt:setBundle basename="localization\translation" />
+<html lang="${language}">
     <head>
         <meta charset="UTF-8" />
 		<title>Error</title>
@@ -11,8 +16,8 @@
     <body>
 		<div class="login-page">
 			<div class="form">
-					<p class="error-message">Something goes wrong. Try again later</p>
-					<p class="error-message">${error_msg}</p>
+				<p class="b-error-message"><fmt:message key="login.input.uncheck"/></p>
+				<p class="error-message">${error_msg}</p>
 			</div>
 		</div>
     </body>

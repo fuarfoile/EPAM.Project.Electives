@@ -25,7 +25,18 @@
 			<input type="hidden" name="TypeCommand" value="R_PROFILE"/>
 		</form>
 		
-		<mytag:header text="${user.getSurname()} ${user.getName()}"/>
+		<header><h1>${user.getSurname()} ${user.getName()}</h1>
+			<div class="search-box">
+				<fmt:message key="tag.header.search.placeholder" var="val"/>
+				<input form="searchForm" type="text" name="searchText" placeholder="${val}" value="${searchText == null ? "" : searchText}">
+				<button form="searchForm" type="submit">></button>
+			</div>
+			<nav>
+				<input form="accountForm" type="hidden" name="fromPage" value="ACCOUNT_UPDATE"/>
+				<button form="accountForm" type="submit"><fmt:message key="tag.header.nav.account"/></button>
+				<button form="logoutForm" type="submit"><fmt:message key="tag.header.nav.exit"/></button>
+			</nav>
+		</header>
 		
 		<div class="profile-page">
 			<div class="form">

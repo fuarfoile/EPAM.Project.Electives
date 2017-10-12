@@ -23,7 +23,7 @@
   
   <error-page>
 	<error-code>404</error-code>
-	<location>/jsp/error.jsp</location>
+	<location>/jsp/404.jsp</location>
   </error-page>
   <error-page>
 	<exception-type>java.io.Exception</exception-type>

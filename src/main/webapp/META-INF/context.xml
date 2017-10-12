@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="cp1251"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Context>
-
-	<Resource name="jdbc/electives_db" auth="Container"
-		type="javax.sql.DataSource" maxActive="100" 
-		maxIdle="30" maxWait="10000"
-		username="user" 
-		password="userpass"
-		driverClassName="com.mysql.jdbc.Driver"
-		url="jdbc:mysql://localhost:8088/electives_db?useUnicode=true&amp;useSSL=false"/>
-
+	<Resource
+			name = "jdbc/electives_db"
+		    auth = "Container"
+		    type = "javax.sql.DataSource"
+		    maxActive = "100"
+		    maxIdle = "30"
+		    maxWait = "10000"
+		    username = "user"
+		    password = "userpass"
+		    driverClassName = "com.mysql.jdbc.Driver"
+		    url = "jdbc:mysql://localhost:3306/electives_db?useSSL=false"
+	/>
 </Context>

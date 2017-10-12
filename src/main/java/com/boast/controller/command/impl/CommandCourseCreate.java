@@ -5,6 +5,7 @@ import com.boast.controller.command.Receiver;
 import com.boast.controller.util.constant.Link;
 import com.boast.domain.Course;
 import com.boast.domain.CourseStatus;
+import com.boast.domain.builder.impl.CourseBuilder;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
@@ -30,11 +31,11 @@ public class CommandCourseCreate implements Command {
         Locale locale = new Locale((String) session.getAttribute("language"));
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
-        Course course = new Course();
-        course.setName(request.getParameter("name"));
-        course.setTeacherId(Integer.parseInt(request.getParameter("teacherId")));
-        course.setDescription(request.getParameter("description"));
-        course.setStatus(CourseStatus.valueOf(request.getParameter("status")));
+        Course course = new CourseBuilder()
+                .setName(request.getParameter("name"))
+                .setTeacherId(Integer.parseInt(request.getParameter("teacherId")))
+                .setDescription(request.getParameter("description"))
+                .setStatus(CourseStatus.valueOf(request.getParameter("status"))).build();
 
         String errorMag = "";
 

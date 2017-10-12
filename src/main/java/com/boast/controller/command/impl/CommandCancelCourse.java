@@ -36,7 +36,7 @@ public class CommandCancelCourse implements Command {
 
             return receiver.rCource(courseId);
         } catch (SQLException e) {
-            logger.error("deleteByIds: " + e);
+            logger.error("Can't deleteByIds StudentCourse in db: " + e);
         }
 
         return Link.ERROR.getLink();

@@ -98,6 +98,12 @@
   text-align: center;
   margin-bottom:0px;
 }
+.b-error-message{
+  color: #b3a;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom:0px;
+}
 .check{
 	display:none;
 }
@@ -185,6 +191,9 @@ header {
   font-size: 140%;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 header h1 {
   font-weight: 600;

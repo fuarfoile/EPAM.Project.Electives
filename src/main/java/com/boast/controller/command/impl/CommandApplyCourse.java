@@ -4,6 +4,7 @@ import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
 import com.boast.controller.util.constant.Link;
 import com.boast.domain.Position;
+import com.boast.domain.builder.impl.StudentCourseBuilder;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
 import com.boast.domain.StudentCourse;
@@ -37,9 +38,9 @@ public class CommandApplyCourse implements Command {
             Connection connection = MySqlConnectionFactory.getInstance().getConnection();
 
             try {
-                StudentCourse studentCourse = new StudentCourse();
-                studentCourse.setCourseId(courseId);
-                studentCourse.setStudentId(user.getId());
+                StudentCourse studentCourse = new StudentCourseBuilder()
+                        .setCourseId(courseId)
+                        .setStudentId(user.getId()).build();
 
                 if (daoFactory.getStudentCourseDao(connection).getByIds(user.getId(), courseId) == null) {
                     daoFactory.getStudentCourseDao(connection).create(studentCourse);
@@ -47,7 +48,7 @@ public class CommandApplyCourse implements Command {
 
                 return receiver.rCource(courseId);
             } catch (SQLException e) {
-                logger.error("create: " + e);
+                logger.error("Can't create new StudentCourse in db: " + e);
             }
         }
 

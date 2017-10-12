@@ -1,3 +1,4 @@
+import com.boast.domain.builder.impl.StudentCourseBuilder;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
@@ -56,16 +57,16 @@ public class MySqlStudentCourseDaoTest {
 
     @Test
     public void testGetByIds() throws Exception {
-        StudentCourse studentCourse = dao.getByIds(10, 5);
+        StudentCourse studentCourse = dao.getByIds(10, 10);
 
         Assert.assertNotNull(studentCourse);
     }
 
     @Test
     public void testCreate() throws Exception {
-        StudentCourse studentCourse = new StudentCourse();
-        studentCourse.setStudentId(1);
-        studentCourse.setCourseId(1);
+        StudentCourse studentCourse = new StudentCourseBuilder()
+                .setStudentId(1)
+                .setCourseId(1).build();
 
         boolean res = dao.create(studentCourse);
 
@@ -74,10 +75,10 @@ public class MySqlStudentCourseDaoTest {
 
     @Test
     public void testUpdate() throws Exception {
-        StudentCourse studentCourse = new StudentCourse();
-        studentCourse.setId(1);
-        studentCourse.setStudentId(1);
-        studentCourse.setCourseId(1);
+        StudentCourse studentCourse = new StudentCourseBuilder()
+                .setId(1)
+                .setStudentId(1)
+                .setCourseId(1).build();
 
         boolean res = dao.update(studentCourse);
 
@@ -86,8 +87,8 @@ public class MySqlStudentCourseDaoTest {
 
     @Test
     public void testDelete() throws Exception {
-        StudentCourse studentCourse = new StudentCourse();
-        studentCourse.setId(1);
+        StudentCourse studentCourse = new StudentCourseBuilder()
+                .setId(1).build();
 
         boolean res = dao.delete(studentCourse);
 

@@ -1,5 +1,8 @@
 package com.boast.domain;
 
+import com.boast.controller.exception.MarkException;
+import com.boast.controller.util.constant.Values;
+
 /** Сущность данных студента на курсе*/
 public class StudentCourse {
 
@@ -28,7 +31,13 @@ public class StudentCourse {
     public void setTeacherId(int teacherId) { this.teacherId = teacherId; }
 
     public int getMark() { return this.mark; }
-    public void setMark(int mark) { this.mark = mark; }
+    public void setMark(int mark) throws MarkException {
+        if (mark >= Values.minMark && mark <= Values.maxMark) {
+            this.mark = mark;
+        } else {
+            throw new MarkException("Mark should be in next diapason: [" + Values.minMark + ", " + Values.maxMark + "] ");
+        }
+    }
 
     public String getReview() { return this.review; }
     public void setReview(String review) { this.review = review; }

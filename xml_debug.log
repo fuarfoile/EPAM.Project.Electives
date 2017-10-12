@@ -1292,3 +1292,94 @@
 2017-10-04 14:06:50.949 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: [null null, id = 1, email = null, phone number = null]
 2017-10-04 14:06:50.951 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`electives_db`.`course`, CONSTRAINT `teacher_id` FOREIGN KEY (`teacher_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
 2017-10-04 14:06:50.965 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: update: [null null, id = 1, email = test@email, phone number = null]
+2017-10-10 11:49:42.494 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: create: [Test name, id = 9999, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-10 11:49:42.505 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: delete: [null, id = 1, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-10 11:49:42.547 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: update: [null, id = 1, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-10 11:49:42.552 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = true
+2017-10-10 11:49:42.553 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-10 11:49:42.553 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-10 11:49:42.554 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin, validation succes = false
+2017-10-10 11:49:42.574 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: create: [id = -1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-10 11:49:42.578 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: delete: [id = 1, studentId = 0, courseId = 0, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-10 11:49:42.672 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: update: [id = 1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-10 11:49:42.672 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: create: [Test name null, id = -1, email = test@email, phone number = null]
+2017-10-10 11:49:42.672 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: [null null, id = 1, email = null, phone number = null]
+2017-10-10 11:49:42.672 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`electives_db`.`course`, CONSTRAINT `teacher_id` FOREIGN KEY (`teacher_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-10-10 11:49:42.687 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: update: [null null, id = 1, email = test@email, phone number = null]
+2017-10-10 16:57:26.438 [main] DEBUG com.boast.model.dao.connection.impl.MySqlConnectionFactory: Fail to get connection: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+2017-10-10 17:18:12.751 [main] DEBUG com.boast.model.dao.connection.impl.MySqlConnectionFactory: Fail to get connection: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+2017-10-10 17:19:17.516 [main] DEBUG com.boast.model.dao.connection.impl.MySqlConnectionFactory: Fail to get connection: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+2017-10-10 17:21:30.903 [main] DEBUG com.boast.model.dao.connection.impl.MySqlConnectionFactory: Fail to get connection: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+2017-10-10 17:21:37.902 [main] DEBUG com.boast.model.dao.connection.impl.MySqlConnectionFactory: Fail to get connection: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+2017-10-10 17:27:20.374 [main] DEBUG com.boast.model.dao.connection.impl.MySqlConnectionFactory: Fail to get connection: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+2017-10-10 17:47:58.590 [main] DEBUG com.boast.model.dao.connection.impl.MySqlConnectionFactory: Fail to get connection: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+2017-10-12 19:23:11.199 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: create: [Test name, id = 9999, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:23:11.217 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: delete: [null, id = 1, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:23:11.281 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: update: [null, id = 1, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:23:11.287 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = true
+2017-10-12 19:23:11.289 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:23:11.290 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:23:11.291 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin, validation succes = false
+2017-10-12 19:23:11.312 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: create: [id = -1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:23:11.317 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: delete: [id = 1, studentId = 0, courseId = 0, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:23:11.446 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: update: [id = 1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:23:11.450 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: create: [Test name null, id = -1, email = test@email, phone number = null]
+2017-10-12 19:23:11.454 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: [null null, id = 1, email = null, phone number = null]
+2017-10-12 19:23:11.456 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`electives_db`.`course`, CONSTRAINT `teacher_id` FOREIGN KEY (`teacher_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-10-12 19:23:11.465 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: update: [null null, id = 1, email = test@email, phone number = null]
+2017-10-12 19:25:30.438 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: create: [Test name, id = 9999, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:25:30.454 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: delete: [null, id = 8, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:25:30.469 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: update: [null, id = 1, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:25:30.469 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = true
+2017-10-12 19:25:30.485 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:25:30.485 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:25:30.485 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin, validation succes = false
+2017-10-12 19:25:30.501 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: create: [id = -1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:25:30.501 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: delete: [id = 1, studentId = 0, courseId = 0, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:25:30.638 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: update: [id = 1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:25:30.654 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: create: [Test name null, id = -1, email = test@email, phone number = null]
+2017-10-12 19:25:30.654 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: [null null, id = 1, email = null, phone number = null]
+2017-10-12 19:25:30.669 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`electives_db`.`course`, CONSTRAINT `teacher_id` FOREIGN KEY (`teacher_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-10-12 19:25:30.669 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: update: [null null, id = 1, email = test@email, phone number = null]
+2017-10-12 19:26:15.020 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: create: [Test name, id = 9999, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:26:15.035 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: delete: [null, id = 8, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:26:15.057 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: update: [null, id = 1, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:26:15.057 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = true
+2017-10-12 19:26:15.057 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:26:15.057 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:26:15.057 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin, validation succes = false
+2017-10-12 19:26:15.073 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: create: [id = -1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:26:15.073 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: delete: [id = 1, studentId = 0, courseId = 0, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:26:15.220 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: update: [id = 1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:26:15.220 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: create: [Test name null, id = -1, email = test@email, phone number = null]
+2017-10-12 19:26:15.220 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: [null null, id = 1, email = null, phone number = null]
+2017-10-12 19:26:15.236 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`electives_db`.`course`, CONSTRAINT `teacher_id` FOREIGN KEY (`teacher_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-10-12 19:26:15.258 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: update: [null null, id = 1, email = test@email, phone number = null]
+2017-10-12 19:27:24.431 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: create: [Test name, id = 9999, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:27:24.447 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: delete: [null, id = 8, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:27:24.462 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: update: [null, id = 1, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:27:24.478 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = true
+2017-10-12 19:27:24.478 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:27:24.478 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:27:24.478 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin, validation succes = false
+2017-10-12 19:27:24.493 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: create: [id = -1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:27:24.493 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: delete: [id = 1, studentId = 0, courseId = 0, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:27:24.631 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: update: [id = 1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:27:24.631 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: create: [Test name null, id = -1, email = test@email, phone number = null]
+2017-10-12 19:27:24.631 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: [null null, id = 10, email = null, phone number = null]
+2017-10-12 19:27:24.647 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`electives_db`.`studentcourse`, CONSTRAINT `student_id` FOREIGN KEY (`student_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-10-12 19:27:24.694 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: update: [null null, id = 1, email = test@email, phone number = null]
+2017-10-12 19:28:59.657 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: create: [Test name, id = 9999, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:28:59.673 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: delete: [null, id = 8, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:28:59.688 [main] INFO  com.boast.model.dao.impl.MySqlCourseDao: update: [null, id = 1, teacher_id = 1, teacherName = null, teacherSurname = null, maxStudentsCount = 0, status = DEVELOPING]
+2017-10-12 19:28:59.704 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = true
+2017-10-12 19:28:59.704 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:28:59.704 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin@admin, validation succes = false
+2017-10-12 19:28:59.704 [main] DEBUG com.boast.model.dao.impl.MySqlLoginDao: login = admin, validation succes = false
+2017-10-12 19:28:59.704 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: create: [id = -1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:28:59.720 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: delete: [id = 1, studentId = 0, courseId = 0, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:28:59.835 [main] INFO  com.boast.model.dao.impl.MySqlStudentCourseDao: update: [id = 1, studentId = 1, courseId = 1, courseName = null, studentName = null, studentSurname = null, mark = 0, review = null, status = DEVELOPING]
+2017-10-12 19:28:59.835 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: create: [Test name null, id = -1, email = test@email, phone number = null]
+2017-10-12 19:28:59.853 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: delete: [null null, id = 14, email = null, phone number = null]
+2017-10-12 19:28:59.858 [main] INFO  com.boast.model.dao.impl.MySqlUserDao: update: [null null, id = 1, email = test@email, phone number = null]
+2017-10-12 20:10:37.147 [main] DEBUG com.boast.model.dao.connection.impl.MySqlConnectionFactory: Fail to get connection: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial

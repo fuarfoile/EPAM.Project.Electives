@@ -2,6 +2,7 @@ package com.boast.controller.command.impl;
 
 import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
+import com.boast.domain.builder.impl.UserBuilder;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
 import com.boast.domain.Position;
@@ -30,17 +31,18 @@ public class CommandSignup implements Command {
         Locale locale = new Locale((String) session.getAttribute("language"));
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
-        User user = new User();
-        user.setEmail(request.getParameter("login"));
-        user.setPassword(request.getParameter("password"));
-        user.setPosition(Position.valueOf(request.getParameter("position")));
-        user.setName(request.getParameter("name"));
-        user.setSurname(request.getParameter("surname"));
-        user.setPhoneNumber(request.getParameter("phoneNumber"));
+        User user = new UserBuilder()
+                .setEmail(request.getParameter("login"))
+                .setPassword(request.getParameter("password"))
+                .setPosition(Position.valueOf(request.getParameter("position")))
+                .setName(request.getParameter("name"))
+                .setSurname(request.getParameter("surname"))
+                .setPhoneNumber(request.getParameter("phoneNumber")).build();
+
         String repPassword = request.getParameter("rPassword");
 
         String errMsg = "";
-        boolean emailFound = false;
+        boolean emailFound;
         boolean rememberMe = request.getParameter("rememberMe") != null;
 
         if (!user.getPassword().equals(repPassword)) {
@@ -81,10 +83,10 @@ public class CommandSignup implements Command {
         }
 
         request.setAttribute("position", user.getPosition());
-        request.setAttribute ("login", user.getEmail());
-        request.setAttribute ("name", user.getName());
-        request.setAttribute ("surname", user.getSurname());
-        request.setAttribute ("phoneNumber", user.getPhoneNumber());
+        request.setAttribute("login", user.getEmail());
+        request.setAttribute("name", user.getName());
+        request.setAttribute("surname", user.getSurname());
+        request.setAttribute("phoneNumber", user.getPhoneNumber());
         request.setAttribute("error_msg", errMsg);
         return receiver.rSignup();
     }

@@ -2,6 +2,7 @@ package com.boast.controller.command.impl;
 
 import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
+import com.boast.controller.exception.MarkException;
 import com.boast.controller.util.constant.Link;
 import com.boast.controller.util.constant.Values;
 import com.boast.domain.StudentCourse;
@@ -39,7 +40,7 @@ public class CommandMarkChange implements Command {
         try {
             newMak = Integer.parseInt(request.getParameter("mark"));
         } catch (NumberFormatException e) {
-            logger.debug("incorrect input for mark value" + e);
+            logger.debug("incorrect input for mark value: " + e);
         }
 
         try {
@@ -50,12 +51,13 @@ public class CommandMarkChange implements Command {
 
             logger.debug("resource Locale = " + resource.getLocale());
 
-            if (newMak >= Values.minMark && newMak <= Values.maxMark) {
+            try {
                 studentCourse.setMark(newMak);
                 studentCourse.setReview(request.getParameter("review"));
 
                 daoFactory.getStudentCourseDao(connection).update(studentCourse);
-            } else {
+            } catch (MarkException e){
+                logger.debug("Incorrect input for mark value: " + e);
                 request.setAttribute("msg", resource.getString("course.msg.error.mark"));
             }
 
