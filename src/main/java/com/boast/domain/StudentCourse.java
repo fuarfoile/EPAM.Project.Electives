@@ -1,7 +1,7 @@
 package com.boast.domain;
 
-import com.boast.controller.exception.MarkException;
-import com.boast.controller.util.constant.Values;
+import com.boast.controller.exception.InvalidMarkException;
+import com.boast.model.util.constant.Values;
 
 /** Сущность данных студента на курсе*/
 public class StudentCourse {
@@ -31,16 +31,18 @@ public class StudentCourse {
     public void setTeacherId(int teacherId) { this.teacherId = teacherId; }
 
     public int getMark() { return this.mark; }
-    public void setMark(int mark) throws MarkException {
-        if (mark >= Values.minMark && mark <= Values.maxMark) {
+    public void setMark(int mark) throws InvalidMarkException {
+        if (mark >= Values.MIN_MARK && mark <= Values.MAX_MARK) {
             this.mark = mark;
         } else {
-            throw new MarkException("Mark should be in next diapason: [" + Values.minMark + ", " + Values.maxMark + "] ");
+            throw new InvalidMarkException("Mark should be in next diapason: [" + Values.MIN_MARK + ", " + Values.MAX_MARK + "] ");
         }
     }
 
     public String getReview() { return this.review; }
-    public void setReview(String review) { this.review = review; }
+    public void setReview(String review) {
+        this.review = review;
+    }
 
     public String getCourseName() { return this.courseName; }
     public void setCourseName(String courseName) { this.courseName = courseName; }

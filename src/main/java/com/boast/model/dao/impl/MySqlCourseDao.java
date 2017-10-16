@@ -1,5 +1,6 @@
 package com.boast.model.dao.impl;
 
+import com.boast.controller.exception.InvalidMarkException;
 import com.boast.domain.CourseStatus;
 import com.boast.domain.builder.impl.CourseBuilder;
 import com.boast.model.dao.CourseDao;
@@ -64,25 +65,31 @@ public class MySqlCourseDao implements CourseDao {
         if(!rs.next()) {
             return null;
         }
-        Course course = new CourseBuilder()
-                .setId(rs.getInt("id"))
-                .setName(rs.getString("name"))
-                .setDescription(rs.getString("description"))
-                .setTeacherId(rs.getInt("teacher_id"))
-                .setStatus(CourseStatus.values()[rs.getInt("course_status") - 1])
-                .setMaxStudentsCount(rs.getInt("max_students_count")).build();
 
-        DaoFactory daoFactory = MySqlDaoFactory.getInstance();
-        course.setStudentsCount(
-                daoFactory.getStudentCourseDao(connection).getStudentsCount(course.getId()));
+        try {
+            Course course = new CourseBuilder()
+                    .setId(rs.getInt("id"))
+                    .setName(rs.getString("name"))
+                    .setDescription(rs.getString("description"))
+                    .setTeacherId(rs.getInt("teacher_id"))
+                    .setStatus(CourseStatus.values()[rs.getInt("course_status") - 1])
+                    .setMaxStudentsCount(rs.getInt("max_students_count")).build();
 
-        if (course.getTeacherId() > 0) {
-            User teacher = daoFactory.getUserDao(connection).getById(course.getTeacherId());
-            course.setTeacherName(teacher.getName());
-            course.setTeacherSurname(teacher.getSurname());
+            DaoFactory daoFactory = MySqlDaoFactory.getInstance();
+            course.setStudentsCount(
+                    daoFactory.getStudentCourseDao(connection).getStudentsCount(course.getId()));
+
+            if (course.getTeacherId() > 0) {
+                User teacher = daoFactory.getUserDao(connection).getById(course.getTeacherId());
+                course.setTeacherName(teacher.getName());
+                course.setTeacherSurname(teacher.getSurname());
+            }
+
+            return course;
+        } catch (InvalidMarkException e) {
+            logger.error("Invalid data in db" + e);
+            return null;
         }
-
-        return course;
     }
 
     /** @see GenericDao#update(Object) */

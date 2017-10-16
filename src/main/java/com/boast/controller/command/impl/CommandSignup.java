@@ -7,6 +7,7 @@ import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
 import com.boast.domain.Position;
 import com.boast.domain.User;
+import com.boast.model.util.InputChecker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -41,7 +42,7 @@ public class CommandSignup implements Command {
 
         String repPassword = request.getParameter("rPassword");
 
-        String errMsg = "";
+        String errMsg = InputChecker.check(user) ? "" : resource.getString("error.input");
         boolean emailFound;
         boolean rememberMe = request.getParameter("rememberMe") != null;
 
@@ -52,7 +53,7 @@ public class CommandSignup implements Command {
         MySqlDaoFactory daoFactory = MySqlDaoFactory.getInstance();
         Connection connection = MySqlConnectionFactory.getInstance().getConnection();
 
-        emailFound = daoFactory.getLoginDao(connection).isEmailInBase(user.getEmail());
+        emailFound = daoFactory.getUserDao(connection).isEmailInBase(user.getEmail());
 
 
         if (emailFound) {
@@ -87,6 +88,7 @@ public class CommandSignup implements Command {
         request.setAttribute("name", user.getName());
         request.setAttribute("surname", user.getSurname());
         request.setAttribute("phoneNumber", user.getPhoneNumber());
+
         request.setAttribute("error_msg", errMsg);
         return receiver.rSignup();
     }

@@ -1,9 +1,8 @@
 package com.boast.domain.builder.impl;
 
+import com.boast.controller.exception.InvalidMarkException;
 import com.boast.domain.Course;
 import com.boast.domain.CourseStatus;
-import com.boast.domain.Position;
-import com.boast.domain.User;
 import com.boast.domain.builder.Builder;
 
 public class CourseBuilder implements Builder<Course> {
@@ -24,7 +23,7 @@ public class CourseBuilder implements Builder<Course> {
         return this;
     }
 
-    public CourseBuilder setDescription(String description) {
+    public CourseBuilder setDescription(String description) throws InvalidMarkException {
         course.setDescription(description);
         return this;
     }

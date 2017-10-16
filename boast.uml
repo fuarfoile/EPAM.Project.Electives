@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.boast</OriginalElement>
+  <nodes>
+    <node x="1279.0" y="123.0">com.boast.domain.builder.impl.UserBuilder</node>
+    <node x="873.0" y="0.0">com.boast.controller.command.TypeCommand</node>
+    <node x="303.0" y="423.0">com.boast.model.dao.impl.MySqlCourseDao</node>
+    <node x="1476.0" y="101.0">com.boast.domain.builder.impl.StudentCourseBuilder</node>
+    <node x="2709.0" y="1239.0">com.boast.controller.command.impl.CommandLogout</node>
+    <node x="0.0" y="697.0">com.boast.controller.util.constant.Link</node>
+    <node x="1161.0" y="1239.0">com.boast.controller.command.impl.CommandPassReset</node>
+    <node x="1548.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRAccountUpdate</node>
+    <node x="5418.0" y="1239.0">com.boast.controller.command.impl.CommandMarkChange</node>
+    <node x="263.5" y="1335.0">com.boast.model.dao.connection.ConnectionFactory</node>
+    <node x="2322.0" y="1239.0">com.boast.controller.command.impl.CommandCourseSearch</node>
+    <node x="4644.0" y="1239.0">com.boast.controller.command.impl.CommandSignup</node>
+    <node x="410.0" y="1608.0">com.boast.controller.command.Invoker</node>
+    <node x="5805.0" y="1239.0">com.boast.controller.command.impl.CommandApplyCourse</node>
+    <node x="774.0" y="1239.0">com.boast.controller.command.impl.CommandLogin</node>
+    <node x="5031.0" y="1239.0">com.boast.controller.command.impl.CommandCourseCreate</node>
+    <node x="1601.0" y="1335.0">com.boast.domain.Position</node>
+    <node x="3870.0" y="1239.0">com.boast.controller.command.impl.CommandCourseChange</node>
+    <node x="408.0" y="842.0">com.boast.model.dao.impl.MySqlDaoFactory</node>
+    <node x="6579.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRPassReset</node>
+    <node x="3096.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRSignup</node>
+    <node x="387.0" y="1239.0">com.boast.controller.command.impl.CommandLocalization</node>
+    <node x="542.0" y="1335.0">com.boast.controller.command.Receiver</node>
+    <node x="0.0" y="1335.0">com.boast.domain.User</node>
+    <node x="584.0" y="200.5">com.boast.model.dao.UserDao</node>
+    <node x="189.0" y="697.0">com.boast.domain.StudentCourse</node>
+    <node x="6966.0" y="1239.0">com.boast.controller.command.impl.CommandCancelCourse</node>
+    <node x="584.0" y="390.0">com.boast.model.dao.impl.MySqlUserDao</node>
+    <node x="0.0" y="1608.0">com.boast.controller.util.tag.CourseStatusSelectTag</node>
+    <node x="303.0" y="234.0">com.boast.model.dao.CourseDao</node>
+    <node x="3483.0" y="1239.0">com.boast.controller.command.impl.CommandAccountUpdate</node>
+    <node x="4257.0" y="1239.0">com.boast.controller.command.impl.CommandForgot</node>
+    <node x="0.0" y="1749.0">com.boast.controller.util.filter.SessionFilter</node>
+    <node x="350.0" y="0.0">com.boast.model.dao.GenericDao</node>
+    <node x="1283.0" y="1608.0">com.boast.controller.util.filter.EncodingFilter</node>
+    <node x="213.0" y="1608.0">com.boast.controller.util.tag.TeacherSelectTag</node>
+    <node x="408.0" y="697.0">com.boast.model.dao.DaoFactory</node>
+    <node x="7740.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRProfile</node>
+    <node x="927.0" y="1335.0">com.boast.domain.CourseStatus</node>
+    <node x="843.0" y="697.0">com.boast.domain.Course</node>
+    <node x="222.0" y="1459.0">com.boast.model.dao.connection.impl.MySqlConnectionFactory</node>
+    <node x="1935.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRCourse</node>
+    <node x="7353.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRLogin</node>
+    <node x="1310.5" y="0.0">com.boast.domain.builder.Builder</node>
+    <node x="0.0" y="190.0">com.boast.model.dao.StudentCourseDao</node>
+    <node x="874.0" y="1608.0">com.boast.controller.util.tag.CoursesTableTag</node>
+    <node x="1086.0" y="112.0">com.boast.domain.builder.impl.CourseBuilder</node>
+    <node x="1086.0" y="1608.0">com.boast.controller.util.tag.ApplyButtonTag</node>
+    <node x="6192.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRCourseCreate</node>
+    <node x="419.0" y="1749.0">com.boast.controller.command.Client</node>
+    <node x="1200.0" y="1335.0">com.boast.controller.ControllerServlet</node>
+    <node x="0.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRForgot</node>
+    <node x="3870.0" y="1058.0">com.boast.controller.command.Command</node>
+    <node x="0.0" y="379.0">com.boast.model.dao.impl.MySqlStudentCourseDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.boast.controller.command.impl.redirect.CommandRSignup" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="3279.5" y="1209.0" />
+      <point x="4018.5476190476193" y="1209.0" />
+      <point x="-34.952380952380736" y="25.5" />
+    </edge>
+    <edge source="com.boast.model.dao.StudentCourseDao" target="com.boast.model.dao.GenericDao">
+      <point x="0.0" y="-69.5" />
+      <point x="141.5" y="165.0" />
+      <point x="377.8333333333333" y="165.0" />
+      <point x="-55.666666666666686" y="70.0" />
+    </edge>
+    <edge source="com.boast.model.dao.impl.MySqlCourseDao" target="com.boast.model.dao.CourseDao">
+      <point x="0.0" y="-92.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandPassReset" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="1344.5" y="1159.0" />
+      <point x="3931.1666666666665" y="1159.0" />
+      <point x="-122.33333333333348" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandCourseChange" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandSignup" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="4827.5" y="1209.0" />
+      <point x="4088.452380952381" y="1209.0" />
+      <point x="34.95238095238119" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.redirect.CommandRCourse" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="2118.5" y="1179.0" />
+      <point x="3966.1190476190477" y="1179.0" />
+      <point x="-87.3809523809523" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.redirect.CommandRAccountUpdate" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="1731.5" y="1169.0" />
+      <point x="3948.6428571428573" y="1169.0" />
+      <point x="-104.85714285714266" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.redirect.CommandRCourseCreate" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="6375.5" y="1169.0" />
+      <point x="4158.357142857143" y="1169.0" />
+      <point x="104.85714285714312" y="25.5" />
+    </edge>
+    <edge source="com.boast.model.dao.connection.impl.MySqlConnectionFactory" target="com.boast.model.dao.connection.ConnectionFactory">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.boast.domain.builder.impl.UserBuilder" target="com.boast.domain.builder.Builder">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.boast.model.dao.impl.MySqlDaoFactory" target="com.boast.model.dao.DaoFactory">
+      <point x="0.0" y="-58.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="com.boast.domain.builder.impl.StudentCourseBuilder" target="com.boast.domain.builder.Builder">
+      <point x="0.0" y="-147.5" />
+      <point x="1573.5" y="76.0" />
+      <point x="1405.5" y="76.0" />
+      <point x="38.0" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandCourseSearch" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="2505.5" y="1189.0" />
+      <point x="3983.595238095238" y="1189.0" />
+      <point x="-69.90476190476193" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandForgot" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="4440.5" y="1219.0" />
+      <point x="4070.9761904761904" y="1219.0" />
+      <point x="17.476190476190368" y="25.5" />
+    </edge>
+    <edge source="com.boast.model.dao.CourseDao" target="com.boast.model.dao.GenericDao">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandLogin" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="957.5" y="1149.0" />
+      <point x="3913.690476190476" y="1149.0" />
+      <point x="-139.80952380952385" y="25.5" />
+    </edge>
+    <edge source="com.boast.model.dao.impl.MySqlStudentCourseDao" target="com.boast.model.dao.StudentCourseDao">
+      <point x="0.0" y="-136.5" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.redirect.CommandRPassReset" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="6762.5" y="1159.0" />
+      <point x="4175.833333333333" y="1159.0" />
+      <point x="122.33333333333303" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandLogout" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="2892.5" y="1199.0" />
+      <point x="4001.0714285714284" y="1199.0" />
+      <point x="-52.42857142857156" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.redirect.CommandRProfile" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="7923.5" y="1129.0" />
+      <point x="4228.261904761905" y="1129.0" />
+      <point x="174.7619047619046" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandCourseCreate" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="5214.5" y="1199.0" />
+      <point x="4105.928571428572" y="1199.0" />
+      <point x="52.42857142857156" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandApplyCourse" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="5988.5" y="1179.0" />
+      <point x="4140.880952380952" y="1179.0" />
+      <point x="87.3809523809523" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandMarkChange" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="5601.5" y="1189.0" />
+      <point x="4123.404761904762" y="1189.0" />
+      <point x="69.90476190476238" y="25.5" />
+    </edge>
+    <edge source="com.boast.model.dao.impl.MySqlUserDao" target="com.boast.model.dao.UserDao">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.redirect.CommandRLogin" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="7536.5" y="1139.0" />
+      <point x="4210.785714285715" y="1139.0" />
+      <point x="157.28571428571468" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.redirect.CommandRForgot" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="183.5" y="1129.0" />
+      <point x="3878.7380952380954" y="1129.0" />
+      <point x="-174.7619047619046" y="25.5" />
+    </edge>
+    <edge source="com.boast.model.dao.UserDao" target="com.boast.model.dao.GenericDao">
+      <point x="0.0" y="-59.0" />
+      <point x="706.0" y="165.0" />
+      <point x="489.16666666666663" y="165.0" />
+      <point x="55.66666666666663" y="70.0" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandAccountUpdate" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="3666.5" y="1219.0" />
+      <point x="4036.0238095238096" y="1219.0" />
+      <point x="-17.476190476190368" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandCancelCourse" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="7149.5" y="1149.0" />
+      <point x="4193.309523809524" y="1149.0" />
+      <point x="139.80952380952385" y="25.5" />
+    </edge>
+    <edge source="com.boast.domain.builder.impl.CourseBuilder" target="com.boast.domain.builder.Builder">
+      <point x="0.0" y="-136.5" />
+      <point x="1172.5" y="76.0" />
+      <point x="1329.5" y="76.0" />
+      <point x="-38.0" y="25.5" />
+    </edge>
+    <edge source="com.boast.controller.command.impl.CommandLocalization" target="com.boast.controller.command.Command">
+      <point x="0.0" y="-25.5" />
+      <point x="570.5" y="1139.0" />
+      <point x="3896.214285714286" y="1139.0" />
+      <point x="-157.28571428571422" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="751.5" y="665.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+

@@ -16,7 +16,7 @@
     <body>
 		<div class="login-page">
 			<div class="form">
-				<p class="b-error-message"><fmt:message key="login.input.uncheck"/></p>
+				<p class="b-error-message"><fmt:message key="error.uncheck"/></p>
 				<p class="error-message">${error_msg}</p>
 			</div>
 		</div>

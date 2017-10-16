@@ -3,13 +3,12 @@ package com.boast.controller.command.impl;
 import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
 import com.boast.controller.util.constant.Link;
-import com.boast.controller.util.constant.Values;
 import com.boast.domain.Course;
 import com.boast.domain.CourseStatus;
-import com.boast.domain.StudentCourse;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
+import com.boast.model.util.InputChecker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -27,8 +26,12 @@ public class CommandCourseChange implements Command {
 
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response){
+        HttpSession session = request.getSession(true);
 
         Receiver receiver = new Receiver(request, response);
+
+        Locale locale = new Locale((String) session.getAttribute("language"));
+        ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
         int courseId = Integer.parseInt(request.getParameter("courseId"));
         int teacherId = Integer.parseInt(request.getParameter("teacherId"));
@@ -46,7 +49,11 @@ public class CommandCourseChange implements Command {
                 course.setStatus(CourseStatus.valueOf(status));
             }
 
-            daoFactory.getCourseDao(connection).update(course);
+            if (InputChecker.check(course)) {
+                daoFactory.getCourseDao(connection).update(course);
+            } else {
+                request.setAttribute("msg", resource.getString("error.input"));
+            }
 
             return receiver.rCource(course.getId());
         } catch (SQLException e) {

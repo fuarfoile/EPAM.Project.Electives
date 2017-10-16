@@ -71,6 +71,30 @@ public class MySqlUserDao implements UserDao {
         return getByHelper(stm);
     }
 
+    /** @see UserDao#getByLogPass(String, String) */
+    @Override
+    public User getByLogPass(String login, String password) {
+        User user = null;
+
+        try {
+            PreparedStatement ps = connection.prepareStatement(
+                    "SELECT * FROM electives_db.user WHERE email=? and password=?");
+
+            ps.setString(1, login.toLowerCase().trim().replaceAll("\\.", ""));
+            ps.setString(2, password);
+
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                user = MySqlDaoFactory.getInstance().getUserDao(connection).getById(rs.getInt("id"));
+            }
+        } catch (SQLException e){
+            logger.error("getUser: SELECT from electives_db.user fail: " + e);
+        }
+
+        logger.debug("login = " + login + ", validation succes = " + (user != null));
+        return user;
+    }
+
     private User getByHelper(PreparedStatement stm) throws SQLException{
         ResultSet rs = stm.executeQuery();
         rs.next();
@@ -162,5 +186,26 @@ public class MySqlUserDao implements UserDao {
         }
 
         return list;
+    }
+
+    /** @see UserDao#isEmailInBase(String)  */
+    @Override
+    public boolean isEmailInBase(String email) {
+
+        try {
+            PreparedStatement ps = connection.prepareStatement(
+                    "SELECT * FROM electives_db.user WHERE email=?");
+
+            ps.setString(1, email.toLowerCase().trim().replaceAll("\\.",""));
+
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                return true;
+            }
+        } catch (SQLException e){
+            logger.error("isEmailInBase: SELECT from electives_db.user fail: " + e);
+        }
+
+        return false;
     }
 }

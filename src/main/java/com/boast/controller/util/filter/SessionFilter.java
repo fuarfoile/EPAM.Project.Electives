@@ -86,7 +86,7 @@ public class SessionFilter implements Filter {
 
                 if (login != null && password != null) {
                     Connection connection = MySqlConnectionFactory.getInstance().getConnection();
-                    User user = MySqlDaoFactory.getInstance().getLoginDao(connection).getUser(login, password);
+                    User user = MySqlDaoFactory.getInstance().getUserDao(connection).getByLogPass(login, password);
 
                     if (user != null) {
                         session.setAttribute("user", user);

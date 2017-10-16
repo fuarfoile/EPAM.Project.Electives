@@ -1,6 +1,6 @@
 package com.boast.model.dao.impl;
 
-import com.boast.controller.exception.MarkException;
+import com.boast.controller.exception.InvalidMarkException;
 import com.boast.domain.builder.impl.StudentCourseBuilder;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.GenericDao;
@@ -72,7 +72,7 @@ public class MySqlStudentCourseDao implements StudentCourseDao {
                             daoFactory.getCourseDao(connection).getById(courseId).getTeacherId())
                     .setStatus(
                             daoFactory.getCourseDao(connection).getById(courseId).getStatus()).build();
-        } catch (MarkException e) {
+        } catch (InvalidMarkException e) {
             logger.error("Found invalid mark in db. " + e);
             return null;
         }
@@ -97,7 +97,7 @@ public class MySqlStudentCourseDao implements StudentCourseDao {
                     .setStudentId(rs.getInt("student_id"))
                     .setMark(rs.getInt("mark"))
                     .setReview(rs.getString("review")).build();
-        } catch (MarkException e) {
+        } catch (InvalidMarkException e) {
             logger.error("Found invalid mark in db. " + e);
             return null;
         }

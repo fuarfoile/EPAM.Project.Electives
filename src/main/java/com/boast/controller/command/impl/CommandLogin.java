@@ -56,7 +56,7 @@ public class CommandLogin implements Command {
         Connection connection;
 
         connection = MySqlConnectionFactory.getInstance().getConnection();
-        User user = daoFactory.getLoginDao(connection).getUser(login, password);
+        User user = daoFactory.getUserDao(connection).getByLogPass(login, password);
 
         logger.debug("action LOGIN: log = " + login + ", pass = " + password + ", remember = " + rememberMe);
 

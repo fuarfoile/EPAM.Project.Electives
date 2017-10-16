@@ -22,7 +22,9 @@ public class Course {
     public void setName(String name) { this.name = name; }
 
     public String getDescription() { return this.description; }
-    public void setDescription(String description) { this.description = description; }
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public int getTeacherId() { return this.teacherId; }
     public void setTeacherId(int teacherId) { this.teacherId = teacherId; }

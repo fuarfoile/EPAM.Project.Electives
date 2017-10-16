@@ -2,6 +2,7 @@ package com.boast.controller.command.impl;
 
 import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
+import com.boast.model.util.InputChecker;
 import com.boast.domain.builder.impl.UserBuilder;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
@@ -43,7 +44,7 @@ public class CommandAccountUpdate implements Command {
 
         String repPassword = request.getParameter("rPassword");
 
-        String errMsg = "";
+        String errMsg = InputChecker.check(user) ? "" : resource.getString("error.input");
         boolean emailFound = false;
 
         if (user.getPassword().length() == 0 && repPassword.length() == 0) {
@@ -56,7 +57,7 @@ public class CommandAccountUpdate implements Command {
         Connection connection = MySqlConnectionFactory.getInstance().getConnection();
 
         if (!user.getEmail().equalsIgnoreCase(oldUser.getEmail())) {
-            emailFound = daoFactory.getLoginDao(connection).isEmailInBase(user.getEmail());
+            emailFound = daoFactory.getUserDao(connection).isEmailInBase(user.getEmail());
         }
 
         if (emailFound) {

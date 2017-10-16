@@ -6,6 +6,7 @@ import com.boast.controller.util.constant.Link;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
 import com.boast.domain.User;
+import com.boast.model.util.InputChecker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -47,8 +48,13 @@ public class CommandPassReset implements Command {
                     user.getPassRecoveryKey().length() > 0) {
                 user.setPassword(request.getParameter("password"));
                 user.setPassRecoveryKey("");
-                daoFactory.getUserDao(connection).update(user);
-                request.setAttribute("msg", resource.getString("password.reset.massage.success"));
+
+                if (InputChecker.check(user)) {
+                    daoFactory.getUserDao(connection).update(user);
+                    request.setAttribute("msg", resource.getString("password.reset.massage.success"));
+                } else {
+                    request.setAttribute("msg", resource.getString("error.input"));
+                }
             } else {
                 return Link.ERROR.getLink();
             }

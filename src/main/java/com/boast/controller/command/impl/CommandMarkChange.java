@@ -2,13 +2,13 @@ package com.boast.controller.command.impl;
 
 import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
-import com.boast.controller.exception.MarkException;
+import com.boast.controller.exception.InvalidMarkException;
 import com.boast.controller.util.constant.Link;
-import com.boast.controller.util.constant.Values;
 import com.boast.domain.StudentCourse;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
+import com.boast.model.util.InputChecker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -17,7 +17,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.text.ParseException;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
@@ -55,8 +54,12 @@ public class CommandMarkChange implements Command {
                 studentCourse.setMark(newMak);
                 studentCourse.setReview(request.getParameter("review"));
 
-                daoFactory.getStudentCourseDao(connection).update(studentCourse);
-            } catch (MarkException e){
+                if (InputChecker.check(studentCourse)) {
+                    daoFactory.getStudentCourseDao(connection).update(studentCourse);
+                } else {
+                    request.setAttribute("msg", resource.getString("error.input"));
+                }
+            } catch (InvalidMarkException e){
                 logger.debug("Incorrect input for mark value: " + e);
                 request.setAttribute("msg", resource.getString("course.msg.error.mark"));
             }

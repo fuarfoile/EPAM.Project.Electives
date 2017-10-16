@@ -1,7 +1,7 @@
 package com.boast.controller.command.impl;
 
 import com.boast.controller.command.Command;
-import com.boast.controller.command.Receiver;
+import com.boast.controller.exception.InvalidMarkException;
 import com.boast.controller.util.constant.Link;
 import com.boast.domain.Course;
 import com.boast.domain.CourseStatus;
@@ -9,6 +9,7 @@ import com.boast.domain.builder.impl.CourseBuilder;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
+import com.boast.model.util.InputChecker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -31,13 +32,25 @@ public class CommandCourseCreate implements Command {
         Locale locale = new Locale((String) session.getAttribute("language"));
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
-        Course course = new CourseBuilder()
-                .setName(request.getParameter("name"))
-                .setTeacherId(Integer.parseInt(request.getParameter("teacherId")))
-                .setDescription(request.getParameter("description"))
-                .setStatus(CourseStatus.valueOf(request.getParameter("status"))).build();
+        request.setAttribute("name", request.getParameter("name"));
+        request.setAttribute("teacherId", request.getParameter("teacherId"));
+        request.setAttribute("description", request.getParameter("description"));
+        request.setAttribute("status", request.getParameter("status"));
 
+        Course course;
         String errorMag = "";
+
+        try {
+            course = new CourseBuilder()
+                    .setName(request.getParameter("name"))
+                    .setTeacherId(Integer.parseInt(request.getParameter("teacherId")))
+                    .setDescription(request.getParameter("description"))
+                    .setStatus(CourseStatus.valueOf(request.getParameter("status"))).build();
+        } catch (InvalidMarkException e) {
+            errorMag = resource.getString("error.input");
+            request.setAttribute("error_msg", errorMag);
+            return Link.COURSE_CREATE.getLink();
+        }
 
         try {
             course.setMaxStudentsCount(Integer.parseInt(request.getParameter("maxStudentsCount")));
@@ -56,12 +69,16 @@ public class CommandCourseCreate implements Command {
                 DaoFactory daoFactory = MySqlDaoFactory.getInstance();
                 Connection connection = MySqlConnectionFactory.getInstance().getConnection();
 
-                try {
-                    daoFactory.getCourseDao(connection).create(course);
-                    request.setAttribute("msg", resource.getString("course.create.created"));
-                } catch (SQLException e) {
-                    request.setAttribute("error_msg", resource.getString("course.create.error"));
-                    logger.error("Can't create a course: " + e);
+                if (InputChecker.check(course)) {
+                    try {
+                        daoFactory.getCourseDao(connection).create(course);
+                        request.setAttribute("msg", resource.getString("course.create.created"));
+                    } catch (SQLException e) {
+                        errorMag += resource.getString("course.create.error");
+                        logger.error("Can't create a course: " + e);
+                    }
+                } else {
+                    errorMag += resource.getString("error.input");
                 }
             }
         } else {
@@ -70,11 +87,6 @@ public class CommandCourseCreate implements Command {
             }
             errorMag += resource.getString("course.create.error.name");
         }
-
-        request.setAttribute("name", course.getName());
-        request.setAttribute("teacherId", course.getTeacherId());
-        request.setAttribute("description", course.getDescription());
-        request.setAttribute("status", course.getStatus());
 
         request.setAttribute("error_msg", errorMag);
         return Link.COURSE_CREATE.getLink();

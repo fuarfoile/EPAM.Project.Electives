@@ -1,6 +1,6 @@
 package com.boast.domain.builder.impl;
 
-import com.boast.controller.exception.MarkException;
+import com.boast.controller.exception.InvalidMarkException;
 import com.boast.domain.CourseStatus;
 import com.boast.domain.StudentCourse;
 import com.boast.domain.builder.Builder;
@@ -33,12 +33,12 @@ public class StudentCourseBuilder implements Builder<StudentCourse> {
         return this;
     }
 
-    public StudentCourseBuilder setMark(int mark) throws MarkException{
+    public StudentCourseBuilder setMark(int mark) throws InvalidMarkException {
         studentCourse.setMark(mark);
         return this;
     }
 
-    public StudentCourseBuilder setReview(String review) {
+    public StudentCourseBuilder setReview(String review) throws InvalidMarkException {
         studentCourse.setReview(review);
         return this;
     }
