@@ -12,9 +12,9 @@
 	<res-auth>Container</res-auth>
   </resource-ref>
 
-  <display-name>EPAM Project</display-name>
+  <display-name>Project</display-name>
   <description>
-     EPAM Java external cources. Project
+     Java external cources. Project
   </description>
   
   <session-config>
