@@ -1,426 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="electives:Web exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a995925-0be9-4c24-aa5c-20ff1f2155e0" name="Default" comment="" />
+    <list default="true" id="0c342375-cc55-4c11-8db3-e14a8999fe95" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_2_more.coverage" NAME="MySqlCourseDaoTest and 2 more Coverage Results" MODIFIED="1506328150759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_3_more.coverage" NAME="MySqlCourseDaoTest and 3 more Coverage Results" MODIFIED="1506813538350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/electives$MySqlDaoFactoryTest.coverage" NAME="MySqlDaoFactoryTest Coverage Results" MODIFIED="1506862766452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest.coverage" NAME="MySqlCourseDaoTest Coverage Results" MODIFIED="1507646876955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_3_more__1_.coverage" NAME="MySqlCourseDaoTest and 3 more (1) Coverage Results" MODIFIED="1506862753748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_4_more.coverage" NAME="MySqlCourseDaoTest and 4 more Coverage Results" MODIFIED="1507828235563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/electives$MySqlCourseDaoTest_and_1_more.coverage" NAME="MySqlCourseDaoTest and 1 more Coverage Results" MODIFIED="1506327114572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="electives_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="electives_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="electives_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="electives_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="electives" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="boast.uml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boast.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.boast</OriginalElement>
-              <nodes>
-                <node x="1279.0" y="123.0">com.boast.domain.builder.impl.UserBuilder</node>
-                <node x="873.0" y="0.0">com.boast.controller.command.TypeCommand</node>
-                <node x="303.0" y="423.0">com.boast.model.dao.impl.MySqlCourseDao</node>
-                <node x="1476.0" y="101.0">com.boast.domain.builder.impl.StudentCourseBuilder</node>
-                <node x="2709.0" y="1239.0">com.boast.controller.command.impl.CommandLogout</node>
-                <node x="0.0" y="697.0">com.boast.controller.util.constant.Link</node>
-                <node x="1161.0" y="1239.0">com.boast.controller.command.impl.CommandPassReset</node>
-                <node x="1548.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRAccountUpdate</node>
-                <node x="5418.0" y="1239.0">com.boast.controller.command.impl.CommandMarkChange</node>
-                <node x="263.5" y="1335.0">com.boast.model.dao.connection.ConnectionFactory</node>
-                <node x="2322.0" y="1239.0">com.boast.controller.command.impl.CommandCourseSearch</node>
-                <node x="4644.0" y="1239.0">com.boast.controller.command.impl.CommandSignup</node>
-                <node x="410.0" y="1608.0">com.boast.controller.command.Invoker</node>
-                <node x="5805.0" y="1239.0">com.boast.controller.command.impl.CommandApplyCourse</node>
-                <node x="774.0" y="1239.0">com.boast.controller.command.impl.CommandLogin</node>
-                <node x="5031.0" y="1239.0">com.boast.controller.command.impl.CommandCourseCreate</node>
-                <node x="1601.0" y="1335.0">com.boast.domain.Position</node>
-                <node x="3870.0" y="1239.0">com.boast.controller.command.impl.CommandCourseChange</node>
-                <node x="408.0" y="842.0">com.boast.model.dao.impl.MySqlDaoFactory</node>
-                <node x="6579.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRPassReset</node>
-                <node x="3096.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRSignup</node>
-                <node x="387.0" y="1239.0">com.boast.controller.command.impl.CommandLocalization</node>
-                <node x="542.0" y="1335.0">com.boast.controller.command.Receiver</node>
-                <node x="0.0" y="1335.0">com.boast.domain.User</node>
-                <node x="584.0" y="200.5">com.boast.model.dao.UserDao</node>
-                <node x="189.0" y="697.0">com.boast.domain.StudentCourse</node>
-                <node x="6966.0" y="1239.0">com.boast.controller.command.impl.CommandCancelCourse</node>
-                <node x="584.0" y="390.0">com.boast.model.dao.impl.MySqlUserDao</node>
-                <node x="0.0" y="1608.0">com.boast.controller.util.tag.CourseStatusSelectTag</node>
-                <node x="303.0" y="234.0">com.boast.model.dao.CourseDao</node>
-                <node x="3483.0" y="1239.0">com.boast.controller.command.impl.CommandAccountUpdate</node>
-                <node x="4257.0" y="1239.0">com.boast.controller.command.impl.CommandForgot</node>
-                <node x="0.0" y="1749.0">com.boast.controller.util.filter.SessionFilter</node>
-                <node x="350.0" y="0.0">com.boast.model.dao.GenericDao</node>
-                <node x="1283.0" y="1608.0">com.boast.controller.util.filter.EncodingFilter</node>
-                <node x="213.0" y="1608.0">com.boast.controller.util.tag.TeacherSelectTag</node>
-                <node x="408.0" y="697.0">com.boast.model.dao.DaoFactory</node>
-                <node x="7740.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRProfile</node>
-                <node x="927.0" y="1335.0">com.boast.domain.CourseStatus</node>
-                <node x="843.0" y="697.0">com.boast.domain.Course</node>
-                <node x="222.0" y="1459.0">com.boast.model.dao.connection.impl.MySqlConnectionFactory</node>
-                <node x="1935.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRCourse</node>
-                <node x="7353.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRLogin</node>
-                <node x="1310.5" y="0.0">com.boast.domain.builder.Builder</node>
-                <node x="0.0" y="190.0">com.boast.model.dao.StudentCourseDao</node>
-                <node x="874.0" y="1608.0">com.boast.controller.util.tag.CoursesTableTag</node>
-                <node x="1086.0" y="112.0">com.boast.domain.builder.impl.CourseBuilder</node>
-                <node x="1086.0" y="1608.0">com.boast.controller.util.tag.ApplyButtonTag</node>
-                <node x="6192.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRCourseCreate</node>
-                <node x="419.0" y="1749.0">com.boast.controller.command.Client</node>
-                <node x="1200.0" y="1335.0">com.boast.controller.ControllerServlet</node>
-                <node x="0.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRForgot</node>
-                <node x="3870.0" y="1058.0">com.boast.controller.command.Command</node>
-                <node x="0.0" y="379.0">com.boast.model.dao.impl.MySqlStudentCourseDao</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.boast.controller.command.impl.redirect.CommandRSignup" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="3279.5" y="1209.0" />
-                  <point x="4018.5476190476193" y="1209.0" />
-                  <point x="-34.952380952380736" y="25.5" />
-                </edge>
-                <edge source="com.boast.model.dao.StudentCourseDao" target="com.boast.model.dao.GenericDao">
-                  <point x="0.0" y="-69.5" />
-                  <point x="141.5" y="165.0" />
-                  <point x="377.8333333333333" y="165.0" />
-                  <point x="-55.666666666666686" y="70.0" />
-                </edge>
-                <edge source="com.boast.model.dao.impl.MySqlCourseDao" target="com.boast.model.dao.CourseDao">
-                  <point x="0.0" y="-92.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandPassReset" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="1344.5" y="1159.0" />
-                  <point x="3931.1666666666665" y="1159.0" />
-                  <point x="-122.33333333333348" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandCourseChange" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandSignup" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="4827.5" y="1209.0" />
-                  <point x="4088.452380952381" y="1209.0" />
-                  <point x="34.95238095238119" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.redirect.CommandRCourse" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="2118.5" y="1179.0" />
-                  <point x="3966.1190476190477" y="1179.0" />
-                  <point x="-87.3809523809523" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.redirect.CommandRAccountUpdate" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="1731.5" y="1169.0" />
-                  <point x="3948.6428571428573" y="1169.0" />
-                  <point x="-104.85714285714266" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.redirect.CommandRCourseCreate" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="6375.5" y="1169.0" />
-                  <point x="4158.357142857143" y="1169.0" />
-                  <point x="104.85714285714312" y="25.5" />
-                </edge>
-                <edge source="com.boast.model.dao.connection.impl.MySqlConnectionFactory" target="com.boast.model.dao.connection.ConnectionFactory">
-                  <point x="0.0" y="-48.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="com.boast.domain.builder.impl.UserBuilder" target="com.boast.domain.builder.Builder">
-                  <point x="0.0" y="-125.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="com.boast.model.dao.impl.MySqlDaoFactory" target="com.boast.model.dao.DaoFactory">
-                  <point x="0.0" y="-58.5" />
-                  <point x="0.0" y="47.5" />
-                </edge>
-                <edge source="com.boast.domain.builder.impl.StudentCourseBuilder" target="com.boast.domain.builder.Builder">
-                  <point x="0.0" y="-147.5" />
-                  <point x="1573.5" y="76.0" />
-                  <point x="1405.5" y="76.0" />
-                  <point x="38.0" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandCourseSearch" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="2505.5" y="1189.0" />
-                  <point x="3983.595238095238" y="1189.0" />
-                  <point x="-69.90476190476193" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandForgot" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="4440.5" y="1219.0" />
-                  <point x="4070.9761904761904" y="1219.0" />
-                  <point x="17.476190476190368" y="25.5" />
-                </edge>
-                <edge source="com.boast.model.dao.CourseDao" target="com.boast.model.dao.GenericDao">
-                  <point x="0.0" y="-25.5" />
-                  <point x="0.0" y="70.0" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandLogin" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="957.5" y="1149.0" />
-                  <point x="3913.690476190476" y="1149.0" />
-                  <point x="-139.80952380952385" y="25.5" />
-                </edge>
-                <edge source="com.boast.model.dao.impl.MySqlStudentCourseDao" target="com.boast.model.dao.StudentCourseDao">
-                  <point x="0.0" y="-136.5" />
-                  <point x="0.0" y="69.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.redirect.CommandRPassReset" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="6762.5" y="1159.0" />
-                  <point x="4175.833333333333" y="1159.0" />
-                  <point x="122.33333333333303" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandLogout" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="2892.5" y="1199.0" />
-                  <point x="4001.0714285714284" y="1199.0" />
-                  <point x="-52.42857142857156" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.redirect.CommandRProfile" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="7923.5" y="1129.0" />
-                  <point x="4228.261904761905" y="1129.0" />
-                  <point x="174.7619047619046" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandCourseCreate" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="5214.5" y="1199.0" />
-                  <point x="4105.928571428572" y="1199.0" />
-                  <point x="52.42857142857156" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandApplyCourse" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="5988.5" y="1179.0" />
-                  <point x="4140.880952380952" y="1179.0" />
-                  <point x="87.3809523809523" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandMarkChange" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="5601.5" y="1189.0" />
-                  <point x="4123.404761904762" y="1189.0" />
-                  <point x="69.90476190476238" y="25.5" />
-                </edge>
-                <edge source="com.boast.model.dao.impl.MySqlUserDao" target="com.boast.model.dao.UserDao">
-                  <point x="0.0" y="-125.5" />
-                  <point x="0.0" y="59.0" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.redirect.CommandRLogin" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="7536.5" y="1139.0" />
-                  <point x="4210.785714285715" y="1139.0" />
-                  <point x="157.28571428571468" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.redirect.CommandRForgot" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="183.5" y="1129.0" />
-                  <point x="3878.7380952380954" y="1129.0" />
-                  <point x="-174.7619047619046" y="25.5" />
-                </edge>
-                <edge source="com.boast.model.dao.UserDao" target="com.boast.model.dao.GenericDao">
-                  <point x="0.0" y="-59.0" />
-                  <point x="706.0" y="165.0" />
-                  <point x="489.16666666666663" y="165.0" />
-                  <point x="55.66666666666663" y="70.0" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandAccountUpdate" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="3666.5" y="1219.0" />
-                  <point x="4036.0238095238096" y="1219.0" />
-                  <point x="-17.476190476190368" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandCancelCourse" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="7149.5" y="1149.0" />
-                  <point x="4193.309523809524" y="1149.0" />
-                  <point x="139.80952380952385" y="25.5" />
-                </edge>
-                <edge source="com.boast.domain.builder.impl.CourseBuilder" target="com.boast.domain.builder.Builder">
-                  <point x="0.0" y="-136.5" />
-                  <point x="1172.5" y="76.0" />
-                  <point x="1329.5" y="76.0" />
-                  <point x="-38.0" y="25.5" />
-                </edge>
-                <edge source="com.boast.controller.command.impl.CommandLocalization" target="com.boast.controller.command.Command">
-                  <point x="0.0" y="-25.5" />
-                  <point x="570.5" y="1139.0" />
-                  <point x="3896.214285714286" y="1139.0" />
-                  <point x="-157.28571428571422" y="25.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.1" x="550.3636363636363" y="345.5454545454545" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Properties</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>protected</VISIBILITY>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/servlet/ControllerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/dao/StudentCourseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Teacher</find>
-      <find>teacher</find>
-      <find>User</find>
-      <find>session</find>
-      <find>\ \</find>
-      <find>getMySqlLoginDao</find>
-      <find>request.getA</find>
-      <find>\3F</find>
-      <find>new User</find>
-      <find>new User()</find>
-      <find>user</find>
-      <find>new Course()</find>
-      <find>void</find>
-      <find>new StudentCourse()</find>
-      <find>getSession</find>
-      <find>%</find>
-      <find>\20\</find>
-      <find>getLoginDao</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Student</replace>
-      <replace>student</replace>
-      <replace>User</replace>
-      <replace>user</replace>
-      <replace>StudentCourse</replace>
-      <replace>studentCourse</replace>
-      <replace>receiver.getSession()</replace>
-      <replace>\ \</replace>
-      <replace>getLoginDao</replace>
-      <replace>?</replace>
-      <replace>course</replace>
-      <replace>CourseBuilder</replace>
-      <replace>new Course()</replace>
-      <replace>StudentCourseBuilder</replace>
-      <replace>\</replace>
-      <replace>getUserDao</replace>
-    </replaceStrings>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/HeaderTag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/CourseStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/GenericDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/CourseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/StudentCourseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/LoginDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlLoginDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/builder/Builder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLocalization.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/UserBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCancelCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandForgot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/exception/MarkException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlStudentCourseDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MySqlCourseDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MySqlStudentCourseDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MySqlUserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/ControllerServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/impl/MySqlConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/AuthorizationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/exception/InvalidInputException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/StudentCourseBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/builder/impl/CourseBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlCourseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/localization/translation.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/localization/translation_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/localization/translation_ru.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/domain/StudentCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/constant/Values.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandApplyCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseCreate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/util/InputChecker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandMarkChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandPassReset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandSignup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/ConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlUserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/DaoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlDaoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandAccountUpdate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/SessionFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MySqlLoginDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boast/dao/MySqlStudentCourseDao.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="electives" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
@@ -428,23 +98,11 @@
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -456,6 +114,11 @@
             <path>
               <item name="electives" type="b2602c69:ProjectViewProjectNode" />
               <item name="electives" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
+              <item name="electives" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -486,185 +149,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="redirect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="tag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boast" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
+              <item name="transferobject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="electives" type="b2602c69:ProjectViewProjectNode" />
@@ -672,63 +157,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="localization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="localization" type="462c0819:PsiDirectoryNode" />
-              <item name="Resource Bundle 'translation'" type="a6c14932:ResourceBundleNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electives" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electives" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -737,40 +165,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/EPAM Project" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554999738611" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.17586207" />
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="project.structure.side.proportion" value="0.40804598" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.boast.controller.util" />
-      <recent name="com.boast.controller.util.constant" />
-      <recent name="com.boast.model.util" />
-      <recent name="com.boast.model.util.constant" />
-      <recent name="com.boast.controller.command.impl.redirect" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.boast.domain.builder.impl" />
-      <recent name="com.boast.controller.command.impl" />
-      <recent name="com.boast.controller.util.tag" />
-      <recent name="com.boast.controller.util.filter" />
-      <recent name="com.boast.model.dao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\electives\lib" />
       <recent name="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\electives\src\main\resources" />
-      <recent name="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\electives\src\main\resources\localization" />
-      <recent name="C:\Users\boast\IdeaProjects\electives\src\main\resources\localization" />
-      <recent name="C:\Users\boast\IdeaProjects\electives\src\main\resources" />
+      <recent name="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\electives\src\main\java\com\boast" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -785,1341 +193,155 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MySqlCourseDaoTest and 4 more">
-    <configuration name="MySqlCourseDaoTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+  <component name="RunManager">
+    <configuration name="ElectivesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="MySqlCourseDaoTest" />
-        <pattern testClass="MySqlLoginDaoTest" />
-        <pattern testClass="MySqlUserDaoTest" />
-      </patterns>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.boast.electives.ElectivesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="MySqlCourseDaoTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="MySqlCourseDaoTest" />
-        <pattern testClass="MySqlLoginDaoTest" />
-        <pattern testClass="MySqlStudentDaoTest" />
-        <pattern testClass="MySqlUserDaoTest" />
-      </patterns>
-    </configuration>
-    <configuration name="MySqlCourseDaoTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="MySqlCourseDaoTest" />
-        <pattern testClass="MySqlLoginDaoTest" />
-        <pattern testClass="MySqlStudentCourseDaoTest" />
-        <pattern testClass="MySqlUserDaoTest" />
-      </patterns>
-    </configuration>
-    <configuration name="MySqlCourseDaoTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="MySqlCourseDaoTest" />
-        <pattern testClass="MySqlLoginDaoTest" />
-        <pattern testClass="MySqlStudentCourseDaoTest" />
-        <pattern testClass="MySqlUserDaoTest" />
-      </patterns>
-    </configuration>
-    <configuration name="MySqlCourseDaoTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="MySqlCourseDaoTest" />
-        <pattern testClass="MySqlLoginDaoTest" />
-        <pattern testClass="MySqlStudentCourseDaoTest" />
-        <pattern testClass="MySqlUserDaoTest" />
-      </patterns>
-    </configuration>
-    <configuration name="MySqlCourseDaoTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="MySqlCourseDaoTest" />
-        <pattern testClass="MySqlLoginDaoTest" />
-        <pattern testClass="MySqlStudentCourseDaoTest" />
-        <pattern testClass="MySqlUserDaoTest" />
-      </patterns>
-    </configuration>
-    <configuration name="MySqlCourseDaoTest and 4 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="MySqlCourseDaoTest" />
-        <pattern testClass="MySqlDaoFactoryTest" />
-        <pattern testClass="MySqlLoginDaoTest" />
-        <pattern testClass="MySqlStudentCourseDaoTest" />
-        <pattern testClass="MySqlUserDaoTest" />
-      </patterns>
-    </configuration>
-    <configuration name="MySqlCourseDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MySqlCourseDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MySqlDaoFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="electives" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MySqlDaoFactoryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 2 more" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 3 more" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MySqlDaoFactoryTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 4 more" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 4 more" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MySqlDaoFactoryTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 3 more" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MySqlCourseDaoTest and 2 more" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a995925-0be9-4c24-aa5c-20ff1f2155e0" name="Default" comment="" />
-      <created>1505567778178</created>
+      <changelist id="0c342375-cc55-4c11-8db3-e14a8999fe95" name="Default Changelist" comment="" />
+      <created>1554990279770</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1505567778178</updated>
-      <workItem from="1505567783866" duration="25753000" />
-      <workItem from="1505844661686" duration="386000" />
-      <workItem from="1505845121285" duration="454000" />
-      <workItem from="1505847427131" duration="217000" />
-      <workItem from="1506274782862" duration="13766000" />
-      <workItem from="1506326754371" duration="5617000" />
-      <workItem from="1506356064496" duration="8259000" />
-      <workItem from="1506439078764" duration="12139000" />
-      <workItem from="1506529192688" duration="39000" />
-      <workItem from="1506529298959" duration="17595000" />
-      <workItem from="1506620033783" duration="4779000" />
-      <workItem from="1506624842913" duration="4679000" />
-      <workItem from="1506697139109" duration="8924000" />
-      <workItem from="1506721527050" duration="33265000" />
-      <workItem from="1506797233003" duration="9816000" />
-      <workItem from="1506809550401" duration="1323000" />
-      <workItem from="1506812471118" duration="1209000" />
-      <workItem from="1506850973790" duration="114231000" />
-      <workItem from="1507133264398" duration="98000" />
-      <workItem from="1507471857542" duration="242000" />
-      <workItem from="1507623122912" duration="11669000" />
-      <workItem from="1507818481801" duration="27060000" />
-      <workItem from="1507906364957" duration="19844000" />
+      <updated>1554990279770</updated>
+      <workItem from="1554990284355" duration="5525000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.10 at 11h 49m 43s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.10 at 16h 57m 27s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.10 at 17h 18m 13s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 23m 12s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 25m 31s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 26m 15s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 27m 25s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 19h 29m 00s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlCourseDaoTest_and_4_more - 2017.10.12 at 20h 10m 37s.xml">
-      <configuration name="MySqlCourseDaoTest and 4 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySqlDaoFactoryTest - 2017.10.01 at 15h 59m 28s.xml">
-      <configuration name="MySqlDaoFactoryTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321364000" />
+    <option name="totallyTimeSpent" value="5525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5021322" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.49467275" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49565217" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28586957" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771855" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5043478" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5043478" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14925373" sideWeight="0.5053272" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="REST Client" weight="0.33044422" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="13" />
-    </breakpoint-manager>
-    <watches-manager />
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/translation_ru.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/dao/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/command/impl/CommandRSignup.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/filter/AuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/command/impl/CommandRAccountUpdate.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/dao/MySqlLoginDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/dao/MySqlDaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/dao/MySqlStudentCourseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="128" column="68" lean-forward="true" selection-start-line="128" selection-start-column="68" selection-end-line="128" selection-end-column="68" />
+        <state relative-caret-position="323">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/translation_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/resources_en.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/servlet/ControllerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="527">
+          <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/domain/StudentCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding>
-            <element signature="e#1472#1473#0" expanded="false" />
-            <element signature="e#1508#1509#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/translation.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/constant/Link.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/dao/StudentCourseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandMarkChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="59" column="83" lean-forward="false" selection-start-line="59" selection-start-column="83" selection-end-line="59" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandCourseChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="54" column="79" lean-forward="true" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandApplyCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandSignup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/util/constant/Values.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.domain</node>
-            <node x="" y="">com.boast.model</node>
-            <node x="" y="">com.boast.controller</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.5" x="228.0" y="162.33333333333334" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/ControllerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#855#856#0" expanded="false" />
-            <element signature="e#886#887#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.controller.exception">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.controller.exception</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.controller.exception.InvalidMarkException</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="80.5" y="14.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/TypeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.controller.command.impl">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.controller.command.impl</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.controller.command.impl.CommandCourseCreate</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandLogin</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandAccountUpdate</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandCourseChange</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandLogout</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandForgot</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandPassReset</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandLocalization</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandMarkChange</node>
-            <node x="" y="">com.boast.controller.command.impl.redirect</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandCancelCourse</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandCourseSearch</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandSignup</node>
-            <node x="" y="">com.boast.controller.command.impl.CommandApplyCourse</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="253.5" y="236.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.controller.command">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.controller.command</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.controller.command.TypeCommand</node>
-            <node x="" y="">com.boast.controller.command.Client</node>
-            <node x="" y="">com.boast.controller.command.impl</node>
-            <node x="" y="">com.boast.controller.command.Invoker</node>
-            <node x="" y="">com.boast.controller.command.Command</node>
-            <node x="" y="">com.boast.controller.command.Receiver</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.9000000000000004" x="222.0435446906036" y="166.1489475436843" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.controller">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.controller</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.controller.command</node>
-            <node x="" y="">com.boast.controller.exception</node>
-            <node x="" y="">com.boast.controller.util</node>
-            <node x="" y="">com.boast.controller.ControllerServlet</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.7000000000000002" x="235.82352941176464" y="35.29411764705878" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.controller.util">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.controller.util</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.controller.util.constant</node>
-            <node x="" y="">com.boast.controller.util.tag</node>
-            <node x="" y="">com.boast.controller.util.filter</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.9000000000000004" x="132.63157894736838" y="102.7736068111455" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/ApplyButtonTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/CoursesTableTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/CourseStatusSelectTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/tag/TeacherSelectTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/exception/InvalidMarkException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.domain.builder">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.domain.builder</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.domain.builder.impl</node>
-            <node x="" y="">com.boast.domain.builder.Builder</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="51.5" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.domain">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.domain</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.domain.builder</node>
-            <node x="" y="">com.boast.domain.Position</node>
-            <node x="" y="">com.boast.domain.StudentCourse</node>
-            <node x="" y="">com.boast.domain.CourseStatus</node>
-            <node x="" y="">com.boast.domain.Course</node>
-            <node x="" y="">com.boast.domain.User</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="2.0000000000000004" x="171.86504345327864" y="154.83133533133534" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/util/InputChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/com.boast.model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.model</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">com.boast.model.dao</node>
-            <node x="144.0" y="0.0">com.boast.model.util</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-318.0" y="-179.5" />
-          <SelectedNodes>
-            <node>com.boast.model.dao</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/impl/MySqlConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="74" column="33" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/connection/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/LoginDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlLoginDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandAccountUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/util/filter/SessionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="88" column="97" lean-forward="false" selection-start-line="88" selection-start-column="85" selection-end-line="88" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MySqlLoginDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="41" column="43" lean-forward="true" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <marker date="1507929659835" expanded="true" signature="851:1376" ph="INSERT INTO electives_db.user... " />
-            <marker date="1507929659835" expanded="true" signature="1931:1975" ph="SELECT * FRO... user" />
-            <marker date="1507929659835" expanded="true" signature="2256:2303" ph="SELECT * FRO... user" />
-            <marker date="1507929659835" expanded="true" signature="2745:2805" ph="SELECT * FRO... user" />
-            <marker date="1507929659835" expanded="true" signature="4109:4659" ph="UPDATE elect... " />
-            <marker date="1507929659835" expanded="true" signature="5585:5651" ph="DELETE FROM " />
-            <marker date="1507929659835" expanded="true" signature="6069:6100" ph="SELECT * FRO... user" />
-            <marker date="1507929659835" expanded="true" signature="6510:6580" ph="SELECT * FRO... user" />
-            <marker date="1507929659835" expanded="true" signature="7104:7149" ph="SELECT * FRO... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlCourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <marker date="1507905096680" expanded="true" signature="986:1305" ph="INSERT INTO electives_db.course... " />
-            <marker date="1507905096680" expanded="true" signature="1976:2022" ph="SELECT * FRO... Course" />
-            <marker date="1507905096680" expanded="true" signature="3462:3811" ph="UPDATE elect... " />
-            <marker date="1507905096680" expanded="true" signature="4296:4360" ph="DELETE FROM " />
-            <marker date="1507905096680" expanded="true" signature="4660:4693" ph="SELECT * FRO... Course" />
-            <marker date="1507905096680" expanded="true" signature="5133:5187" ph="SELECT * FRO... Course" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlStudentCourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <marker date="1507905096727" expanded="true" signature="988:1290" ph="INSERT INTO electives_db.studentcourse... " />
-            <marker date="1507905096727" expanded="true" signature="1588:1641" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507905096727" expanded="true" signature="3269:3348" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507905096727" expanded="true" signature="4179:4291" ph="UPDATE elect... " />
-            <marker date="1507905096727" expanded="true" signature="5027:5098" ph="DELETE FROM " />
-            <marker date="1507905096727" expanded="true" signature="5457:5587" ph="DELETE FROM " />
-            <marker date="1507905096727" expanded="true" signature="5942:5982" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507905096727" expanded="true" signature="6436:6497" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507905096727" expanded="true" signature="6987:7047" ph="SELECT * FRO... studentcourse" />
-            <marker date="1507905096727" expanded="true" signature="7524:7584" ph="SELECT * FRO... studentcourse" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/model/dao/impl/MySqlDaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.model.dao">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.model.dao</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.model.dao.UserDao</node>
-            <node x="" y="">com.boast.model.dao.impl</node>
-            <node x="" y="">com.boast.model.dao.StudentCourseDao</node>
-            <node x="" y="">com.boast.model.dao.connection</node>
-            <node x="" y="">com.boast.model.dao.CourseDao</node>
-            <node x="" y="">com.boast.model.dao.GenericDao</node>
-            <node x="" y="">com.boast.model.dao.DaoFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.6" x="357.75" y="120.25" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.boast.domain.Course">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast.domain.Course</OriginalElement>
-          <nodes>
-            <node x="" y="">com.boast.domain.Course</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.1" x="42.999999999999886" y="-65.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b89f5b1b-6e86-4ffc-9a9c-c518b820fcba/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boast/controller/command/impl/CommandPassReset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boast.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.boast</OriginalElement>
-          <nodes>
-            <node x="1279.0" y="123.0">com.boast.domain.builder.impl.UserBuilder</node>
-            <node x="873.0" y="0.0">com.boast.controller.command.TypeCommand</node>
-            <node x="303.0" y="423.0">com.boast.model.dao.impl.MySqlCourseDao</node>
-            <node x="1476.0" y="101.0">com.boast.domain.builder.impl.StudentCourseBuilder</node>
-            <node x="2709.0" y="1239.0">com.boast.controller.command.impl.CommandLogout</node>
-            <node x="0.0" y="697.0">com.boast.controller.util.constant.Link</node>
-            <node x="1161.0" y="1239.0">com.boast.controller.command.impl.CommandPassReset</node>
-            <node x="1548.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRAccountUpdate</node>
-            <node x="5418.0" y="1239.0">com.boast.controller.command.impl.CommandMarkChange</node>
-            <node x="263.5" y="1335.0">com.boast.model.dao.connection.ConnectionFactory</node>
-            <node x="2322.0" y="1239.0">com.boast.controller.command.impl.CommandCourseSearch</node>
-            <node x="4644.0" y="1239.0">com.boast.controller.command.impl.CommandSignup</node>
-            <node x="410.0" y="1608.0">com.boast.controller.command.Invoker</node>
-            <node x="5805.0" y="1239.0">com.boast.controller.command.impl.CommandApplyCourse</node>
-            <node x="774.0" y="1239.0">com.boast.controller.command.impl.CommandLogin</node>
-            <node x="5031.0" y="1239.0">com.boast.controller.command.impl.CommandCourseCreate</node>
-            <node x="1601.0" y="1335.0">com.boast.domain.Position</node>
-            <node x="3870.0" y="1239.0">com.boast.controller.command.impl.CommandCourseChange</node>
-            <node x="408.0" y="842.0">com.boast.model.dao.impl.MySqlDaoFactory</node>
-            <node x="6579.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRPassReset</node>
-            <node x="3096.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRSignup</node>
-            <node x="387.0" y="1239.0">com.boast.controller.command.impl.CommandLocalization</node>
-            <node x="542.0" y="1335.0">com.boast.controller.command.Receiver</node>
-            <node x="0.0" y="1335.0">com.boast.domain.User</node>
-            <node x="584.0" y="200.5">com.boast.model.dao.UserDao</node>
-            <node x="189.0" y="697.0">com.boast.domain.StudentCourse</node>
-            <node x="6966.0" y="1239.0">com.boast.controller.command.impl.CommandCancelCourse</node>
-            <node x="584.0" y="390.0">com.boast.model.dao.impl.MySqlUserDao</node>
-            <node x="0.0" y="1608.0">com.boast.controller.util.tag.CourseStatusSelectTag</node>
-            <node x="303.0" y="234.0">com.boast.model.dao.CourseDao</node>
-            <node x="3483.0" y="1239.0">com.boast.controller.command.impl.CommandAccountUpdate</node>
-            <node x="4257.0" y="1239.0">com.boast.controller.command.impl.CommandForgot</node>
-            <node x="0.0" y="1749.0">com.boast.controller.util.filter.SessionFilter</node>
-            <node x="350.0" y="0.0">com.boast.model.dao.GenericDao</node>
-            <node x="1283.0" y="1608.0">com.boast.controller.util.filter.EncodingFilter</node>
-            <node x="213.0" y="1608.0">com.boast.controller.util.tag.TeacherSelectTag</node>
-            <node x="408.0" y="697.0">com.boast.model.dao.DaoFactory</node>
-            <node x="7740.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRProfile</node>
-            <node x="927.0" y="1335.0">com.boast.domain.CourseStatus</node>
-            <node x="843.0" y="697.0">com.boast.domain.Course</node>
-            <node x="222.0" y="1459.0">com.boast.model.dao.connection.impl.MySqlConnectionFactory</node>
-            <node x="1935.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRCourse</node>
-            <node x="7353.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRLogin</node>
-            <node x="1310.5" y="0.0">com.boast.domain.builder.Builder</node>
-            <node x="0.0" y="190.0">com.boast.model.dao.StudentCourseDao</node>
-            <node x="874.0" y="1608.0">com.boast.controller.util.tag.CoursesTableTag</node>
-            <node x="1086.0" y="112.0">com.boast.domain.builder.impl.CourseBuilder</node>
-            <node x="1086.0" y="1608.0">com.boast.controller.util.tag.ApplyButtonTag</node>
-            <node x="6192.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRCourseCreate</node>
-            <node x="419.0" y="1749.0">com.boast.controller.command.Client</node>
-            <node x="1200.0" y="1335.0">com.boast.controller.ControllerServlet</node>
-            <node x="0.0" y="1239.0">com.boast.controller.command.impl.redirect.CommandRForgot</node>
-            <node x="3870.0" y="1058.0">com.boast.controller.command.Command</node>
-            <node x="0.0" y="379.0">com.boast.model.dao.impl.MySqlStudentCourseDao</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.boast.controller.command.impl.redirect.CommandRSignup" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="3279.5" y="1209.0" />
-              <point x="4018.5476190476193" y="1209.0" />
-              <point x="-34.952380952380736" y="25.5" />
-            </edge>
-            <edge source="com.boast.model.dao.StudentCourseDao" target="com.boast.model.dao.GenericDao">
-              <point x="0.0" y="-69.5" />
-              <point x="141.5" y="165.0" />
-              <point x="377.8333333333333" y="165.0" />
-              <point x="-55.666666666666686" y="70.0" />
-            </edge>
-            <edge source="com.boast.model.dao.impl.MySqlCourseDao" target="com.boast.model.dao.CourseDao">
-              <point x="0.0" y="-92.5" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandPassReset" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="1344.5" y="1159.0" />
-              <point x="3931.1666666666665" y="1159.0" />
-              <point x="-122.33333333333348" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandCourseChange" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandSignup" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="4827.5" y="1209.0" />
-              <point x="4088.452380952381" y="1209.0" />
-              <point x="34.95238095238119" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.redirect.CommandRCourse" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="2118.5" y="1179.0" />
-              <point x="3966.1190476190477" y="1179.0" />
-              <point x="-87.3809523809523" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.redirect.CommandRAccountUpdate" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="1731.5" y="1169.0" />
-              <point x="3948.6428571428573" y="1169.0" />
-              <point x="-104.85714285714266" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.redirect.CommandRCourseCreate" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="6375.5" y="1169.0" />
-              <point x="4158.357142857143" y="1169.0" />
-              <point x="104.85714285714312" y="25.5" />
-            </edge>
-            <edge source="com.boast.model.dao.connection.impl.MySqlConnectionFactory" target="com.boast.model.dao.connection.ConnectionFactory">
-              <point x="0.0" y="-48.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="com.boast.domain.builder.impl.UserBuilder" target="com.boast.domain.builder.Builder">
-              <point x="0.0" y="-125.5" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="com.boast.model.dao.impl.MySqlDaoFactory" target="com.boast.model.dao.DaoFactory">
-              <point x="0.0" y="-58.5" />
-              <point x="0.0" y="47.5" />
-            </edge>
-            <edge source="com.boast.domain.builder.impl.StudentCourseBuilder" target="com.boast.domain.builder.Builder">
-              <point x="0.0" y="-147.5" />
-              <point x="1573.5" y="76.0" />
-              <point x="1405.5" y="76.0" />
-              <point x="38.0" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandCourseSearch" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="2505.5" y="1189.0" />
-              <point x="3983.595238095238" y="1189.0" />
-              <point x="-69.90476190476193" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandForgot" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="4440.5" y="1219.0" />
-              <point x="4070.9761904761904" y="1219.0" />
-              <point x="17.476190476190368" y="25.5" />
-            </edge>
-            <edge source="com.boast.model.dao.CourseDao" target="com.boast.model.dao.GenericDao">
-              <point x="0.0" y="-25.5" />
-              <point x="0.0" y="70.0" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandLogin" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="957.5" y="1149.0" />
-              <point x="3913.690476190476" y="1149.0" />
-              <point x="-139.80952380952385" y="25.5" />
-            </edge>
-            <edge source="com.boast.model.dao.impl.MySqlStudentCourseDao" target="com.boast.model.dao.StudentCourseDao">
-              <point x="0.0" y="-136.5" />
-              <point x="0.0" y="69.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.redirect.CommandRPassReset" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="6762.5" y="1159.0" />
-              <point x="4175.833333333333" y="1159.0" />
-              <point x="122.33333333333303" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandLogout" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="2892.5" y="1199.0" />
-              <point x="4001.0714285714284" y="1199.0" />
-              <point x="-52.42857142857156" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.redirect.CommandRProfile" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="7923.5" y="1129.0" />
-              <point x="4228.261904761905" y="1129.0" />
-              <point x="174.7619047619046" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandCourseCreate" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="5214.5" y="1199.0" />
-              <point x="4105.928571428572" y="1199.0" />
-              <point x="52.42857142857156" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandApplyCourse" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="5988.5" y="1179.0" />
-              <point x="4140.880952380952" y="1179.0" />
-              <point x="87.3809523809523" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandMarkChange" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="5601.5" y="1189.0" />
-              <point x="4123.404761904762" y="1189.0" />
-              <point x="69.90476190476238" y="25.5" />
-            </edge>
-            <edge source="com.boast.model.dao.impl.MySqlUserDao" target="com.boast.model.dao.UserDao">
-              <point x="0.0" y="-125.5" />
-              <point x="0.0" y="59.0" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.redirect.CommandRLogin" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="7536.5" y="1139.0" />
-              <point x="4210.785714285715" y="1139.0" />
-              <point x="157.28571428571468" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.redirect.CommandRForgot" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="183.5" y="1129.0" />
-              <point x="3878.7380952380954" y="1129.0" />
-              <point x="-174.7619047619046" y="25.5" />
-            </edge>
-            <edge source="com.boast.model.dao.UserDao" target="com.boast.model.dao.GenericDao">
-              <point x="0.0" y="-59.0" />
-              <point x="706.0" y="165.0" />
-              <point x="489.16666666666663" y="165.0" />
-              <point x="55.66666666666663" y="70.0" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandAccountUpdate" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="3666.5" y="1219.0" />
-              <point x="4036.0238095238096" y="1219.0" />
-              <point x="-17.476190476190368" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandCancelCourse" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="7149.5" y="1149.0" />
-              <point x="4193.309523809524" y="1149.0" />
-              <point x="139.80952380952385" y="25.5" />
-            </edge>
-            <edge source="com.boast.domain.builder.impl.CourseBuilder" target="com.boast.domain.builder.Builder">
-              <point x="0.0" y="-136.5" />
-              <point x="1172.5" y="76.0" />
-              <point x="1329.5" y="76.0" />
-              <point x="-38.0" y="25.5" />
-            </edge>
-            <edge source="com.boast.controller.command.impl.CommandLocalization" target="com.boast.controller.command.Command">
-              <point x="0.0" y="-25.5" />
-              <point x="570.5" y="1139.0" />
-              <point x="3896.214285714286" y="1139.0" />
-              <point x="-157.28571428571422" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1" x="550.3636363636363" y="345.5454545454545" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>protected</VISIBILITY>
+        <state relative-caret-position="425">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40804598" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor>
-            <show-content>
-              <type id="library" />
-              <type id="javaee-facet-resources" />
-              <type id="artifact" />
-              <type id="jpa-descriptors" />
-            </show-content>
-          </artifact-editor>
+          <artifact-editor />
           <last-edited>electives:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17586207" />
-                <option value="0.5" />
+                <option value="0.40804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -2131,7 +353,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17586207" />
+                <option value="0.40804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -2142,7 +364,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17586207" />
+                <option value="0.40804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -2154,7 +376,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17586207" />
+                <option value="0.40804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -2162,11 +384,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|electives</last-edited>
+          <last-edited>Spring|electives</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17586207" />
+                <option value="0.40804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -2174,11 +396,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Java EE 6-Java EE 6</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.17586207" />
+                <option value="0.40804598" />
               </list>
             </option>
           </splitter-proportions>
