@@ -1,4 +1,4 @@
-package com.boast.electives;
+package com.boast;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
