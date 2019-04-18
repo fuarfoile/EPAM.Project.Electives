@@ -2,9 +2,9 @@ package com.boast.transferobject;
 
 public class Course {
 
-    private int id = -1;
+    private int id;
     private String name = null;
-    private int teacherId = 0;
+    private int teacherId;
     private boolean deployed = false;
 
     private int maxStudentsCount;

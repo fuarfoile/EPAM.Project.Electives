@@ -2,7 +2,7 @@ package com.boast.transferobject;
 
 public class StudentCourse {
 
-    private int id = -1;
+    private int id;
     private int studentId;
     private int courseId;
     private int mark;

@@ -1,12 +1,25 @@
 package com.boast.transferobject;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class User {
 
-    private int id = -1;
+    private int id;
     private Position position;
+
+    @NotNull(message="Name is a required field")
     private String name;
+
+    @NotNull(message="Surname is a required field")
     private String surname;
+
+    @Email
     private String email;
+
+    @NotNull(message="Password is a required field")
+    @Size(min=4, max=16, message="Password must be equal to or greater than 4 characters and less than 16 characters")
     private String password;
     private String phoneNumber;
     private String passRecoveryKey;

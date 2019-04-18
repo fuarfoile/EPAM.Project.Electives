@@ -1,8 +1,13 @@
 package com.boast.controller;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 
+import com.boast.transferobject.User;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -32,5 +37,12 @@ public class TestController {
         sb.append("</ul>");
 
         return sb.toString();
+    }
+
+    @ResponseBody
+    @RequestMapping(path = "/test")
+    public ResponseEntity<User> test(@Valid @RequestBody User user) {
+
+        return new ResponseEntity<>(user, HttpStatus.OK);
     }
 }
