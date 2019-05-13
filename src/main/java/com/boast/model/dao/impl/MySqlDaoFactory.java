@@ -30,6 +30,11 @@ public class MySqlDaoFactory implements DaoFactory {
     }
 
     @Override
+    public MySqlLoginDao getLoginDao(Connection connection){
+        return new MySqlLoginDao(connection);
+    }
+
+    @Override
     public MySqlStudentCourseDao getStudentCourseDao(Connection connection){
         return new MySqlStudentCourseDao(connection);
     }

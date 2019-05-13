@@ -2,12 +2,10 @@ package com.boast.controller.command.impl;
 
 import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
-import com.boast.domain.builder.impl.UserBuilder;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
 import com.boast.domain.Position;
 import com.boast.domain.User;
-import com.boast.model.util.InputChecker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -29,21 +27,21 @@ public class CommandSignup implements Command {
 
         Receiver receiver = new Receiver(request, response);
 
-        Locale locale = new Locale((String) session.getAttribute("language"));
+        //Locale locale = new Locale((String) session.getAttribute("language"));
+        Locale locale = (Locale) session.getAttribute("language");
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
-        User user = new UserBuilder()
-                .setEmail(request.getParameter("login"))
-                .setPassword(request.getParameter("password"))
-                .setPosition(Position.valueOf(request.getParameter("position")))
-                .setName(request.getParameter("name"))
-                .setSurname(request.getParameter("surname"))
-                .setPhoneNumber(request.getParameter("phoneNumber")).build();
-
+        User user = new User();
+        user.setEmail(request.getParameter("login"));
+        user.setPassword(request.getParameter("password"));
+        user.setPosition(Position.valueOf(request.getParameter("position")));
+        user.setName(request.getParameter("name"));
+        user.setSurname(request.getParameter("surname"));
+        user.setPhoneNumber(request.getParameter("phoneNumber"));
         String repPassword = request.getParameter("rPassword");
 
-        String errMsg = InputChecker.check(user) ? "" : resource.getString("error.input");
-        boolean emailFound;
+        String errMsg = "";
+        boolean emailFound = false;
         boolean rememberMe = request.getParameter("rememberMe") != null;
 
         if (!user.getPassword().equals(repPassword)) {
@@ -53,7 +51,7 @@ public class CommandSignup implements Command {
         MySqlDaoFactory daoFactory = MySqlDaoFactory.getInstance();
         Connection connection = MySqlConnectionFactory.getInstance().getConnection();
 
-        emailFound = daoFactory.getUserDao(connection).isEmailInBase(user.getEmail());
+        emailFound = daoFactory.getLoginDao(connection).isEmailInBase(user.getEmail());
 
 
         if (emailFound) {
@@ -84,11 +82,10 @@ public class CommandSignup implements Command {
         }
 
         request.setAttribute("position", user.getPosition());
-        request.setAttribute("login", user.getEmail());
-        request.setAttribute("name", user.getName());
-        request.setAttribute("surname", user.getSurname());
-        request.setAttribute("phoneNumber", user.getPhoneNumber());
-
+        request.setAttribute ("login", user.getEmail());
+        request.setAttribute ("name", user.getName());
+        request.setAttribute ("surname", user.getSurname());
+        request.setAttribute ("phoneNumber", user.getPhoneNumber());
         request.setAttribute("error_msg", errMsg);
         return receiver.rSignup();
     }

@@ -1,7 +1,6 @@
 package com.boast.controller;
 
 import com.boast.controller.command.*;
-import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /** Реализация сервлета. Принимает все запросы клиента, передает на обработку командам и выдает ответ*/
-@WebServlet(name = "MainServlet", urlPatterns = {"/controller"})
+//@WebServlet(name = "MainServlet", urlPatterns = {"/controller"})
 public class ControllerServlet extends HttpServlet {
 
     private static Logger logger = LogManager.getLogger(ControllerServlet.class);
@@ -47,7 +46,9 @@ public class ControllerServlet extends HttpServlet {
     }
 
     /**
-     * Управляет всеми запросами от клиента выполняя заданные команды определенные в запросе
+     * Handles all requests coming from the client by executing the specified
+     * command name in a request. Implements PRG pattern by checking action type
+     * specified by the invoked method.
      *
      * @param request Запрос клиента
      * @param response Ответ сервера
@@ -67,8 +68,6 @@ public class ControllerServlet extends HttpServlet {
         Command command = client.initCommand(typeCommand);
         Invoker invoker = new Invoker(command);
         String path = invoker.invokeCommand(request, response);
-
-        MySqlConnectionFactory.getInstance().closeConnection();
 
         logger.info("performTask: " + typeCommand + ", result path = " + path);
         getServletConfig().getServletContext().getRequestDispatcher(path)

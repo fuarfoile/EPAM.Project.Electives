@@ -1,11 +1,15 @@
 package com.boast.domain;
 
-import com.boast.controller.exception.InvalidMarkException;
-import com.boast.model.util.constant.Values;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /** Сущность данных студента на курсе*/
+@Entity
+@Table(name = "studentcourse")
 public class StudentCourse {
 
+    @Id
     private int id = -1;
     private int studentId;
     private int courseId;
@@ -31,18 +35,10 @@ public class StudentCourse {
     public void setTeacherId(int teacherId) { this.teacherId = teacherId; }
 
     public int getMark() { return this.mark; }
-    public void setMark(int mark) throws InvalidMarkException {
-        if (mark >= Values.MIN_MARK && mark <= Values.MAX_MARK) {
-            this.mark = mark;
-        } else {
-            throw new InvalidMarkException("Mark should be in next diapason: [" + Values.MIN_MARK + ", " + Values.MAX_MARK + "] ");
-        }
-    }
+    public void setMark(int mark) { this.mark = mark; }
 
     public String getReview() { return this.review; }
-    public void setReview(String review) {
-        this.review = review;
-    }
+    public void setReview(String review) { this.review = review; }
 
     public String getCourseName() { return this.courseName; }
     public void setCourseName(String courseName) { this.courseName = courseName; }

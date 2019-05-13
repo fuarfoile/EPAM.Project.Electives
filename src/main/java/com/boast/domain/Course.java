@@ -1,8 +1,15 @@
 package com.boast.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /** Сущность курса*/
+@Entity
+@Table(name = "course")
 public class Course {
 
+    @Id
     private int id = -1;
     private String name = null;
     private String description = null;
@@ -22,9 +29,7 @@ public class Course {
     public void setName(String name) { this.name = name; }
 
     public String getDescription() { return this.description; }
-    public void setDescription(String description) {
-        this.description = description;
-    }
+    public void setDescription(String description) { this.description = description; }
 
     public int getTeacherId() { return this.teacherId; }
     public void setTeacherId(int teacherId) { this.teacherId = teacherId; }

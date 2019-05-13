@@ -1,8 +1,15 @@
 package com.boast.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /** Сущность пользователя*/
+@Entity
+@Table(name = "user")
 public class User {
 
+    @Id
     private int id = -1;
     private Position position;
     private String name;

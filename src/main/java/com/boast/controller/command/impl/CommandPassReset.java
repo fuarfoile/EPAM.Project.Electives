@@ -6,7 +6,6 @@ import com.boast.controller.util.constant.Link;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
 import com.boast.domain.User;
-import com.boast.model.util.InputChecker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -26,7 +25,8 @@ public class CommandPassReset implements Command {
     public String execute(HttpServletRequest request, HttpServletResponse response){
         HttpSession session = request.getSession(true);
 
-        Locale locale = new Locale((String) session.getAttribute("language"));
+        //Locale locale = new Locale((String) session.getAttribute("language"));
+        Locale locale = (Locale) session.getAttribute("language");
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
         MySqlDaoFactory daoFactory = MySqlDaoFactory.getInstance();
@@ -48,13 +48,8 @@ public class CommandPassReset implements Command {
                     user.getPassRecoveryKey().length() > 0) {
                 user.setPassword(request.getParameter("password"));
                 user.setPassRecoveryKey("");
-
-                if (InputChecker.check(user)) {
-                    daoFactory.getUserDao(connection).update(user);
-                    request.setAttribute("msg", resource.getString("password.reset.massage.success"));
-                } else {
-                    request.setAttribute("msg", resource.getString("error.input"));
-                }
+                daoFactory.getUserDao(connection).update(user);
+                request.setAttribute("msg", resource.getString("password.reset.massage.success"));
             } else {
                 return Link.ERROR.getLink();
             }

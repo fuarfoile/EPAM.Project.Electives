@@ -2,13 +2,12 @@ package com.boast.controller.command.impl;
 
 import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
-import com.boast.controller.exception.InvalidMarkException;
 import com.boast.controller.util.constant.Link;
+import com.boast.controller.util.constant.Values;
 import com.boast.domain.StudentCourse;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
-import com.boast.model.util.InputChecker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -17,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.text.ParseException;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
@@ -30,7 +30,8 @@ public class CommandMarkChange implements Command {
 
         Receiver receiver = new Receiver(request, response);
 
-        Locale locale = new Locale((String) session.getAttribute("language"));
+        //Locale locale = new Locale((String) session.getAttribute("language"));
+        Locale locale = (Locale) session.getAttribute("language");
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
         int studentCourseId = Integer.parseInt(request.getParameter("studentCourseId"));
@@ -39,7 +40,7 @@ public class CommandMarkChange implements Command {
         try {
             newMak = Integer.parseInt(request.getParameter("mark"));
         } catch (NumberFormatException e) {
-            logger.debug("incorrect input for mark value: " + e);
+            logger.debug("incorrect input for mark value" + e);
         }
 
         try {
@@ -50,17 +51,12 @@ public class CommandMarkChange implements Command {
 
             logger.debug("resource Locale = " + resource.getLocale());
 
-            try {
+            if (newMak >= Values.minMark && newMak <= Values.maxMark) {
                 studentCourse.setMark(newMak);
                 studentCourse.setReview(request.getParameter("review"));
 
-                if (InputChecker.check(studentCourse)) {
-                    daoFactory.getStudentCourseDao(connection).update(studentCourse);
-                } else {
-                    request.setAttribute("msg", resource.getString("error.input"));
-                }
-            } catch (InvalidMarkException e){
-                logger.debug("Incorrect input for mark value: " + e);
+                daoFactory.getStudentCourseDao(connection).update(studentCourse);
+            } else {
                 request.setAttribute("msg", resource.getString("course.msg.error.mark"));
             }
 

@@ -51,7 +51,7 @@ public class CourseStatusSelectTag extends TagSupport {
                     .append("\" ")
                     .append(cs.toString().equalsIgnoreCase(status) ? "selected" : "")
                     .append(">")
-                    .append(cs.getCourseStatus((String) pageContext.getSession().getAttribute("language")))
+                    .append(cs.getCourseStatus(pageContext.getSession().getAttribute("language").toString()))
                     .append("</option>\n");
         }
 

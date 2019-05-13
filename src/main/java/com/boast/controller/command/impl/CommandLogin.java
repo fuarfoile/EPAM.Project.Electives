@@ -29,7 +29,8 @@ public class CommandLogin implements Command {
 
         Receiver receiver = new Receiver(request, response);
 
-        Locale locale = new Locale((String) session.getAttribute("language"));
+        //Locale locale = new Locale((String) session.getAttribute("language"));
+        Locale locale = (Locale) session.getAttribute("language");
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
         boolean rememberMe = request.getParameter("rememberMe") != null;
@@ -56,7 +57,7 @@ public class CommandLogin implements Command {
         Connection connection;
 
         connection = MySqlConnectionFactory.getInstance().getConnection();
-        User user = daoFactory.getUserDao(connection).getByLogPass(login, password);
+        User user = daoFactory.getLoginDao(connection).getUser(login, password);
 
         logger.debug("action LOGIN: log = " + login + ", pass = " + password + ", remember = " + rememberMe);
 

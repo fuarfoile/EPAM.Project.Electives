@@ -25,7 +25,8 @@ public class CommandForgot implements Command {
     public String execute(HttpServletRequest request, HttpServletResponse response){
         HttpSession session = request.getSession(true);
 
-        Locale locale = new Locale((String) session.getAttribute("language"));
+        //Locale locale = new Locale((String) session.getAttribute("language"));
+        Locale locale = (Locale) session.getAttribute("language");
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
         String email = request.getParameter("login");
@@ -36,7 +37,7 @@ public class CommandForgot implements Command {
         try {
             user = daoFactory.getUserDao(connection).getByEmail(email);
         } catch (SQLException e) {
-            logger.error("Can't get user from db: getByEmail. " + e);
+            logger.error("rSignup: user getByEmail, " + e);
         }
 
         if (user != null) {

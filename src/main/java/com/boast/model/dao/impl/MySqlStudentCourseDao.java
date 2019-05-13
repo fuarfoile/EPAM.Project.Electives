@@ -1,7 +1,5 @@
 package com.boast.model.dao.impl;
 
-import com.boast.controller.exception.InvalidMarkException;
-import com.boast.domain.builder.impl.StudentCourseBuilder;
 import com.boast.model.dao.DaoFactory;
 import com.boast.model.dao.GenericDao;
 import com.boast.model.dao.StudentCourseDao;
@@ -50,32 +48,26 @@ public class MySqlStudentCourseDao implements StudentCourseDao {
         if(!rs.next()) {
             return null;
         }
+        StudentCourse studentCourse = new StudentCourse();
+        studentCourse.setId(id);
+        studentCourse.setCourseId(rs.getInt("course_id"));
+        studentCourse.setStudentId(rs.getInt("student_id"));
+        studentCourse.setMark(rs.getInt("mark"));
+        studentCourse.setReview(rs.getString("review"));
 
         DaoFactory daoFactory = MySqlDaoFactory.getInstance();
+        studentCourse.setStudentName(
+                daoFactory.getUserDao(connection).getById(studentCourse.getStudentId()).getName());
+        studentCourse.setStudentSurname(
+                daoFactory.getUserDao(connection).getById(studentCourse.getStudentId()).getSurname());
+        studentCourse.setCourseName(
+                daoFactory.getCourseDao(connection).getById(studentCourse.getCourseId()).getName());
+        studentCourse.setTeacherId(
+                daoFactory.getCourseDao(connection).getById(studentCourse.getCourseId()).getTeacherId());
+        studentCourse.setStatus(
+                daoFactory.getCourseDao(connection).getById(studentCourse.getCourseId()).getStatus());
 
-        int studentId = rs.getInt("student_id");
-        int courseId = rs.getInt("course_id");
-        try {
-            return new StudentCourseBuilder()
-                    .setId(id)
-                    .setCourseId(courseId)
-                    .setStudentId(studentId)
-                    .setMark(rs.getInt("mark"))
-                    .setReview(rs.getString("review"))
-                    .setStudentName(
-                            daoFactory.getUserDao(connection).getById(studentId).getName())
-                    .setStudentSurname(
-                            daoFactory.getUserDao(connection).getById(studentId).getSurname())
-                    .setCourseName(
-                            daoFactory.getCourseDao(connection).getById(courseId).getName())
-                    .setTeacherId(
-                            daoFactory.getCourseDao(connection).getById(courseId).getTeacherId())
-                    .setStatus(
-                            daoFactory.getCourseDao(connection).getById(courseId).getStatus()).build();
-        } catch (InvalidMarkException e) {
-            logger.error("Found invalid mark in db. " + e);
-            return null;
-        }
+        return studentCourse;
     }
 
     /** @see StudentCourseDao#getByIds(int, int)  */
@@ -91,16 +83,13 @@ public class MySqlStudentCourseDao implements StudentCourseDao {
         if(!rs.next()) {
             return null;
         }
-        try {
-            return new StudentCourseBuilder()
-                    .setCourseId(rs.getInt("course_id"))
-                    .setStudentId(rs.getInt("student_id"))
-                    .setMark(rs.getInt("mark"))
-                    .setReview(rs.getString("review")).build();
-        } catch (InvalidMarkException e) {
-            logger.error("Found invalid mark in db. " + e);
-            return null;
-        }
+        StudentCourse studentCourse = new StudentCourse();
+        studentCourse.setCourseId(rs.getInt("course_id"));
+        studentCourse.setStudentId(rs.getInt("student_id"));
+        studentCourse.setMark(rs.getInt("mark"));
+        studentCourse.setReview(rs.getString("review"));
+
+        return studentCourse;
     }
 
     /** @see GenericDao#update(Object) */

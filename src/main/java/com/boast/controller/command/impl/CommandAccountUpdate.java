@@ -2,8 +2,6 @@ package com.boast.controller.command.impl;
 
 import com.boast.controller.command.Command;
 import com.boast.controller.command.Receiver;
-import com.boast.model.util.InputChecker;
-import com.boast.domain.builder.impl.UserBuilder;
 import com.boast.model.dao.connection.impl.MySqlConnectionFactory;
 import com.boast.model.dao.impl.MySqlDaoFactory;
 import com.boast.domain.Position;
@@ -28,23 +26,23 @@ public class CommandAccountUpdate implements Command {
 
         Receiver receiver = new Receiver(request, response);
 
-        Locale locale = new Locale((String) session.getAttribute("language"));
+        //Locale locale = new Locale((String) session.getAttribute("language"));
+        Locale locale = (Locale) session.getAttribute("language");
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
-
+        User user = new User();
         User oldUser = (User) session.getAttribute("user");
-        User user = new UserBuilder()
-                .setId(oldUser.getId())
-                .setEmail(request.getParameter("login"))
-                .setPassword(request.getParameter("password"))
-                .setPosition(oldUser.getPosition())
-                .setName(request.getParameter("name"))
-                .setSurname(request.getParameter("surname"))
-                .setPhoneNumber(request.getParameter("phoneNumber")).build();
+        user.setId(oldUser.getId());
+        user.setEmail(request.getParameter("login"));
+        user.setPassword(request.getParameter("password"));
 
+        user.setPosition(oldUser.getPosition());
+        user.setName(request.getParameter("name"));
+        user.setSurname(request.getParameter("surname"));
+        user.setPhoneNumber(request.getParameter("phoneNumber"));
         String repPassword = request.getParameter("rPassword");
 
-        String errMsg = InputChecker.check(user) ? "" : resource.getString("error.input");
+        String errMsg = "";
         boolean emailFound = false;
 
         if (user.getPassword().length() == 0 && repPassword.length() == 0) {
@@ -57,7 +55,7 @@ public class CommandAccountUpdate implements Command {
         Connection connection = MySqlConnectionFactory.getInstance().getConnection();
 
         if (!user.getEmail().equalsIgnoreCase(oldUser.getEmail())) {
-            emailFound = daoFactory.getUserDao(connection).isEmailInBase(user.getEmail());
+            emailFound = daoFactory.getLoginDao(connection).isEmailInBase(user.getEmail());
         }
 
         if (emailFound) {

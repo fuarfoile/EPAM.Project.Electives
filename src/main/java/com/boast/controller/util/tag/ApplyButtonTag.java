@@ -30,7 +30,8 @@ public class ApplyButtonTag extends TagSupport {
      */
     public int doStartTag() throws JspException {
 
-        Locale locale = new Locale((String) pageContext.getSession().getAttribute("language"));
+        //Locale locale = new Locale((String) pageContext.getSession().getAttribute("language"));
+        Locale locale = (Locale) pageContext.getSession().getAttribute("language");
         ResourceBundle resource = ResourceBundle.getBundle("localization/translation", locale);
 
         User user = (User) pageContext.getSession().getAttribute("user");
